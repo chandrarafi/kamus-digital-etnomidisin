@@ -1,24 +1,124 @@
+"use client";
+
 import Link from "next/link";
 import plantsData from "../../plants.json";
-import { notFound } from "next/navigation";
+import { useParams } from "next/navigation";
+import { useState, useEffect } from "react";
 
-export function generateStaticParams() {
-  return plantsData.tanaman_herbal.map((plant) => ({
-    id: plant.id.toString(),
-  }));
-}
+// Definisikan tipe untuk tanaman
+type Plant = {
+  id: number;
+  nama: string;
+  nama_latin: string | null;
+  pelafalan: string;
+  deskripsi: string;
+  manfaat: string[];
+};
 
-export default async function PlantDetail({
-  params,
-}: {
-  params: { id: string };
-}) {
-  const plant = plantsData.tanaman_herbal.find(
-    (p) => p.id === parseInt(params.id)
-  );
+export default function PlantDetail() {
+  const params = useParams();
+  const id =
+    typeof params.id === "string"
+      ? params.id
+      : Array.isArray(params.id)
+      ? params.id[0]
+      : "";
+
+  const [plant, setPlant] = useState<Plant | null>(null);
+
+  useEffect(() => {
+    const foundPlant = plantsData.tanaman_herbal.find(
+      (p) => p.id === parseInt(id)
+    );
+    setPlant(foundPlant || null);
+  }, [id]);
 
   if (!plant) {
-    notFound();
+    return (
+      <div className="min-h-screen bg-white flex flex-col">
+        <header className="bg-white shadow-sm border-b border-gray-100 sticky top-0 z-10">
+          <div className="container mx-auto py-4 px-4 md:px-8 flex items-center justify-between">
+            <Link
+              href="/"
+              className="text-lg md:text-2xl font-bold flex items-center text-gray-800"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                className="h-5 w-5 md:h-6 md:w-6 mr-1 md:mr-2 text-blue-500"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={1.5}
+                  d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z"
+                />
+              </svg>
+              <span>KAMUS ETNOMIDISIN</span>
+            </Link>
+            <nav className="flex gap-3 md:gap-4">
+              <Link
+                href="/"
+                className="text-sm md:text-base text-gray-600 hover:text-blue-500 transition-colors flex items-center font-medium"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  className="h-4 w-4 md:h-5 md:w-5 mr-1"
+                  viewBox="0 0 20 20"
+                  fill="currentColor"
+                >
+                  <path d="M10.707 2.293a1 1 0 00-1.414 0l-7 7a1 1 0 001.414 1.414L4 10.414V17a1 1 0 001 1h2a1 1 0 001-1v-2a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 001 1h2a1 1 0 001-1v-6.586l.293.293a1 1 0 001.414-1.414l-7-7z" />
+                </svg>
+                Beranda
+              </Link>
+              <Link
+                href="/plants"
+                className="text-sm md:text-base text-gray-600 hover:text-blue-500 transition-colors flex items-center font-medium"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  className="h-4 w-4 md:h-5 md:w-5 mr-1"
+                  viewBox="0 0 20 20"
+                  fill="currentColor"
+                >
+                  <path
+                    fillRule="evenodd"
+                    d="M4 4a2 2 0 012-2h4.586A2 2 0 0112 2.586L15.414 6A2 2 0 0116 7.414V16a2 2 0 01-2 2H6a2 2 0 01-2-2V4zm2 6a1 1 0 011-1h6a1 1 0 110 2H7a1 1 0 01-1-1zm1 3a1 1 0 100 2h6a1 1 0 100-2H7z"
+                    clipRule="evenodd"
+                  />
+                </svg>
+                Tanaman
+              </Link>
+            </nav>
+          </div>
+        </header>
+
+        <main className="container mx-auto py-8 px-4 md:px-8 flex-grow">
+          <div className="max-w-4xl mx-auto text-center">
+            <h1 className="text-2xl font-bold text-red-500">
+              Tanaman tidak ditemukan
+            </h1>
+            <p className="mt-4">
+              Tanaman dengan ID tersebut tidak ada dalam database kami.
+            </p>
+            <Link
+              href="/plants"
+              className="mt-6 inline-block bg-blue-500 hover:bg-blue-600 text-white font-medium py-3 px-6 rounded-lg transition-all shadow-sm"
+            >
+              Kembali ke Daftar Tanaman
+            </Link>
+          </div>
+        </main>
+
+        <footer className="bg-white border-t border-gray-100 py-6">
+          <div className="container mx-auto px-4 md:px-8 text-center text-gray-600">
+            <p>&copy; 2025 Kamus Digital Etnomidisin. Hak Cipta Dilindungi.</p>
+          </div>
+        </footer>
+      </div>
+    );
   }
 
   return (

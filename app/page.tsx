@@ -1,29 +1,28 @@
+"use client";
+
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Home() {
   const teamMembers = [
     {
       name: "Asraf",
       nim: "2210742037",
-      role: "Ketua Kelompok",
       avatar: "A",
     },
     {
       name: "Lany Adila Putri",
       nim: "2210742002",
-      role: "Anggota",
       avatar: "L",
     },
     {
       name: "M. Dzaki Annafi N",
       nim: "2210742025",
-      role: "Anggota",
       avatar: "M",
     },
     {
       name: "Nia Sepya Putri",
       nim: "2210743008",
-      role: "Anggota",
       avatar: "N",
     },
   ];
@@ -56,11 +55,11 @@ export default function Home() {
           <nav>
             <Link
               href="/plants"
-              className="text-sm md:text-base text-gray-600 hover:text-blue-500 transition-colors flex items-center font-medium"
+              className="text-gray-600 hover:text-blue-500 transition-colors flex items-center font-medium"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                className="h-4 w-4 md:h-5 md:w-5 mr-1"
+                className="h-5 w-5 mr-1"
                 viewBox="0 0 20 20"
                 fill="currentColor"
               >
