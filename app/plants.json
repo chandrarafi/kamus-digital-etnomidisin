@@ -1564,14 +1564,7 @@
       "deskripsi": "Bunga merah cerah, sering dibuat teh.",
       "manfaat": ["Menurunkan tekanan darah", "Antioksidan"]
     },
-    {
-      "id": 150,
-      "nama": "Rosella",
-      "nama_latin": "Hibiscus sabdariffa",
-      "pelafalan": "/hi-bis-kus sab-da-rif-fa/",
-      "deskripsi": "Bunga merah cerah, sering dibuat teh.",
-      "manfaat": ["Menurunkan tekanan darah", "Antioksidan"]
-    },
+
     {
       "id": 151,
       "nama": "Rumput Laut",

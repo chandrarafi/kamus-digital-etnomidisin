@@ -24,11 +24,11 @@ export default function PlantDetail({ params }: { params: { id: string } }) {
         <div className="container mx-auto py-4 px-4 md:px-8 flex items-center justify-between">
           <Link
             href="/"
-            className="text-xl md:text-2xl font-bold flex items-center text-gray-800"
+            className="text-lg md:text-2xl font-bold flex items-center text-gray-800"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              className="h-6 w-6 mr-2 text-blue-500"
+              className="h-5 w-5 md:h-6 md:w-6 mr-1 md:mr-2 text-blue-500"
               fill="none"
               viewBox="0 0 24 24"
               stroke="currentColor"
@@ -42,14 +42,14 @@ export default function PlantDetail({ params }: { params: { id: string } }) {
             </svg>
             <span>KAMUS ETNOMIDISIN</span>
           </Link>
-          <nav className="flex gap-6">
+          <nav className="flex gap-3 md:gap-4">
             <Link
               href="/"
-              className="text-gray-600 hover:text-blue-500 transition-colors flex items-center font-medium"
+              className="text-sm md:text-base text-gray-600 hover:text-blue-500 transition-colors flex items-center font-medium"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                className="h-5 w-5 mr-1"
+                className="h-4 w-4 md:h-5 md:w-5 mr-1"
                 viewBox="0 0 20 20"
                 fill="currentColor"
               >
@@ -59,11 +59,11 @@ export default function PlantDetail({ params }: { params: { id: string } }) {
             </Link>
             <Link
               href="/plants"
-              className="text-gray-600 hover:text-blue-500 transition-colors flex items-center font-medium"
+              className="text-sm md:text-base text-gray-600 hover:text-blue-500 transition-colors flex items-center font-medium"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                className="h-5 w-5 mr-1"
+                className="h-4 w-4 md:h-5 md:w-5 mr-1"
                 viewBox="0 0 20 20"
                 fill="currentColor"
               >
@@ -83,7 +83,7 @@ export default function PlantDetail({ params }: { params: { id: string } }) {
       <main className="container mx-auto py-8 px-4 md:px-8">
         <div className="max-w-4xl mx-auto">
           {/* Breadcrumb */}
-          <div className="mb-6 flex items-center text-sm text-gray-500 bg-white rounded-full px-4 py-2 shadow-sm border border-gray-100">
+          <div className="mb-6 flex items-center text-sm text-gray-500 bg-white rounded-lg px-4 py-2 shadow-sm border border-gray-100">
             <Link href="/" className="hover:text-blue-500 flex items-center">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -144,18 +144,18 @@ export default function PlantDetail({ params }: { params: { id: string } }) {
 
           {/* Plant Header Card */}
           <div className="bg-white rounded-lg shadow-sm border border-gray-100 overflow-hidden mb-6">
-            <div className="p-6 md:p-8">
+            <div className="p-6">
               <div className="flex flex-col md:flex-row items-center md:items-start gap-6">
-                <div className="w-24 h-24 md:w-32 md:h-32 flex items-center justify-center rounded-full bg-blue-500 text-white text-4xl md:text-5xl font-bold">
+                <div className="w-24 h-24 md:w-28 md:h-28 flex items-center justify-center rounded-full bg-blue-500 text-white text-3xl md:text-4xl font-bold">
                   {plant.nama && plant.nama.charAt(0)}
                 </div>
 
                 <div className="flex-1 text-center md:text-left">
-                  <h1 className="text-3xl md:text-4xl font-bold text-blue-500 mb-2">
+                  <h1 className="text-2xl md:text-3xl font-bold text-blue-500 mb-2">
                     {plant.nama}
                   </h1>
-                  <p className="text-xl text-gray-500 italic mb-4">
-                    {plant.nama_latin}
+                  <p className="text-lg text-gray-500 italic mb-4">
+                    {plant.nama_latin || "Nama latin tidak tersedia"}
                   </p>
                   <div className="inline-block bg-blue-50 rounded-full px-4 py-2 text-blue-600 text-sm font-medium border border-blue-100">
                     <div className="flex items-center">
@@ -179,59 +179,34 @@ export default function PlantDetail({ params }: { params: { id: string } }) {
             </div>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
-            {/* Description Card */}
-            <div className="bg-white rounded-lg shadow-sm border border-gray-100 overflow-hidden h-full">
-              <div className="p-6">
-                <h3 className="text-lg font-bold text-gray-800 mb-4 flex items-center">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    className="h-5 w-5 mr-2 text-blue-500"
-                    viewBox="0 0 20 20"
-                    fill="currentColor"
-                  >
-                    <path
-                      fillRule="evenodd"
-                      d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z"
-                      clipRule="evenodd"
-                    />
-                  </svg>
-                  Deskripsi
-                </h3>
-                <div className="bg-blue-50 rounded-lg p-4 border border-blue-100">
-                  <p className="text-gray-600 leading-relaxed">
-                    {plant.deskripsi}
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            {/* Image Placeholder Card */}
-            <div className="bg-white rounded-lg shadow-sm border border-gray-100 overflow-hidden flex items-center justify-center h-full">
-              <div className="text-center p-6">
+          {/* Description Card */}
+          <div className="bg-white rounded-lg shadow-sm border border-gray-100 overflow-hidden mb-6">
+            <div className="p-6">
+              <h3 className="text-lg font-bold text-gray-800 mb-4 flex items-center">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  className="h-16 w-16 mx-auto text-blue-400 mb-3"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
+                  className="h-5 w-5 mr-2 text-blue-500"
+                  viewBox="0 0 20 20"
+                  fill="currentColor"
                 >
                   <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth={1}
-                    d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"
+                    fillRule="evenodd"
+                    d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z"
+                    clipRule="evenodd"
                   />
                 </svg>
-                <p className="text-gray-500 font-medium">
-                  Gambar tanaman belum tersedia
+                Deskripsi
+              </h3>
+              <div className="bg-blue-50 rounded-lg p-4 border border-blue-100">
+                <p className="text-gray-600 leading-relaxed">
+                  {plant.deskripsi}
                 </p>
               </div>
             </div>
           </div>
 
           {/* Benefits Card */}
-          <div className="bg-white rounded-lg shadow-sm border border-gray-100 overflow-hidden mb-8">
+          <div className="bg-white rounded-lg shadow-sm border border-gray-100 overflow-hidden mb-6">
             <div className="p-6">
               <h3 className="text-lg font-bold text-gray-800 mb-4 flex items-center">
                 <svg
@@ -248,47 +223,42 @@ export default function PlantDetail({ params }: { params: { id: string } }) {
                 </svg>
                 Manfaat Kesehatan
               </h3>
-
-              <div className="bg-blue-50 rounded-lg p-4 border border-blue-100">
-                <ul className="grid gap-3 md:grid-cols-2">
-                  {plant.manfaat &&
-                    plant.manfaat.map((benefit, index) => (
-                      <li
-                        key={index}
-                        className="flex items-start bg-white rounded-lg p-3 shadow-sm"
+              <ul className="space-y-2">
+                {plant.manfaat &&
+                  plant.manfaat.map((manfaat, index) => (
+                    <li
+                      key={index}
+                      className="bg-green-50 rounded-lg p-3 border border-green-100 flex items-start"
+                    >
+                      <svg
+                        className="h-5 w-5 mr-3 text-green-500 flex-shrink-0 mt-0.5"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor"
                       >
-                        <div className="flex-shrink-0 w-8 h-8 flex items-center justify-center rounded-full bg-blue-500 text-white mr-3">
-                          <svg
-                            className="h-4 w-4"
-                            fill="none"
-                            viewBox="0 0 24 24"
-                            stroke="currentColor"
-                          >
-                            <path
-                              strokeLinecap="round"
-                              strokeLinejoin="round"
-                              strokeWidth="2"
-                              d="M5 13l4 4L19 7"
-                            />
-                          </svg>
-                        </div>
-                        <span className="text-gray-700">{benefit}</span>
-                      </li>
-                    ))}
-                </ul>
-              </div>
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth="2"
+                          d="M5 13l4 4L19 7"
+                        />
+                      </svg>
+                      <span className="text-gray-700">{manfaat}</span>
+                    </li>
+                  ))}
+              </ul>
             </div>
           </div>
 
-          {/* Navigation Buttons */}
-          <div className="flex flex-col sm:flex-row gap-4 justify-between">
+          {/* Back Button */}
+          <div className="flex justify-center mb-6">
             <Link
               href="/plants"
-              className="bg-white border border-gray-200 text-gray-700 px-6 py-3 rounded-lg text-center transition-colors flex items-center justify-center hover:bg-gray-50"
+              className="bg-blue-500 hover:bg-blue-600 text-white font-medium py-3 px-6 rounded-lg transition-all shadow-sm flex items-center"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                className="h-5 w-5 mr-2 text-blue-500"
+                className="h-5 w-5 mr-2"
                 viewBox="0 0 20 20"
                 fill="currentColor"
               >
@@ -300,29 +270,14 @@ export default function PlantDetail({ params }: { params: { id: string } }) {
               </svg>
               Kembali ke Daftar Tanaman
             </Link>
-
-            <Link
-              href="/"
-              className="bg-blue-500 hover:bg-blue-600 text-white px-6 py-3 rounded-lg text-center transition-all shadow-sm hover:shadow-md flex items-center justify-center"
-            >
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                className="h-5 w-5 mr-2"
-                viewBox="0 0 20 20"
-                fill="currentColor"
-              >
-                <path d="M10.707 2.293a1 1 0 00-1.414 0l-7 7a1 1 0 001.414 1.414L4 10.414V17a1 1 0 001 1h2a1 1 0 001-1v-2a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 001 1h2a1 1 0 001-1v-6.586l.293.293a1 1 0 001.414-1.414l-7-7z" />
-              </svg>
-              Kembali ke Beranda
-            </Link>
           </div>
         </div>
       </main>
 
       {/* Footer */}
-      <footer className="bg-white border-t border-gray-100 py-6 mt-12">
+      <footer className="bg-white border-t border-gray-100 py-6 mt-8">
         <div className="container mx-auto px-4 md:px-8 text-center text-gray-600">
-          <p>&copy; 2023 Kamus Digital Etnomidisin. Hak Cipta Dilindungi.</p>
+          <p>&copy; 2025 Kamus Digital Etnomidisin. Hak Cipta Dilindungi.</p>
         </div>
       </footer>
     </div>

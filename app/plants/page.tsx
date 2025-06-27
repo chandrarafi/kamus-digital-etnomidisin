@@ -1,8 +1,60 @@
+"use client";
+
 import Link from "next/link";
 import plantsData from "../plants.json";
+import { useState, useEffect } from "react";
 
 export default function Plants() {
   const { tanaman_herbal } = plantsData;
+  const [searchTerm, setSearchTerm] = useState("");
+  const [filteredPlants, setFilteredPlants] = useState(tanaman_herbal);
+  const [currentPage, setCurrentPage] = useState(1);
+  const plantsPerPage = 50;
+
+  // Filter tanaman berdasarkan pencarian
+  useEffect(() => {
+    const results = tanaman_herbal.filter(
+      (plant) =>
+        plant.nama.toLowerCase().includes(searchTerm.toLowerCase()) ||
+        (plant.nama_latin &&
+          plant.nama_latin.toLowerCase().includes(searchTerm.toLowerCase())) ||
+        plant.deskripsi.toLowerCase().includes(searchTerm.toLowerCase())
+    );
+    setFilteredPlants(results);
+    setCurrentPage(1); // Reset ke halaman pertama saat pencarian berubah
+  }, [searchTerm, tanaman_herbal]);
+
+  // Hitung total halaman
+  const totalPages = Math.ceil(filteredPlants.length / plantsPerPage);
+
+  // Dapatkan tanaman untuk halaman saat ini
+  const currentPlants = filteredPlants.slice(
+    (currentPage - 1) * plantsPerPage,
+    currentPage * plantsPerPage
+  );
+
+  // Fungsi untuk mengubah halaman
+  const paginate = (pageNumber: number) => {
+    if (pageNumber > 0 && pageNumber <= totalPages) {
+      setCurrentPage(pageNumber);
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    }
+  };
+
+  // Buat array untuk tombol pagination
+  const pageNumbers = [];
+  const maxPageButtons = 5; // Jumlah maksimal tombol halaman yang ditampilkan
+
+  let startPage = Math.max(1, currentPage - Math.floor(maxPageButtons / 2));
+  let endPage = Math.min(totalPages, startPage + maxPageButtons - 1);
+
+  if (endPage - startPage + 1 < maxPageButtons && startPage > 1) {
+    startPage = Math.max(1, endPage - maxPageButtons + 1);
+  }
+
+  for (let i = startPage; i <= endPage; i++) {
+    pageNumbers.push(i);
+  }
 
   return (
     <div className="min-h-screen bg-white">
@@ -11,11 +63,11 @@ export default function Plants() {
         <div className="container mx-auto py-4 px-4 md:px-8 flex items-center justify-between">
           <Link
             href="/"
-            className="text-xl md:text-2xl font-bold flex items-center text-gray-800"
+            className="text-lg md:text-2xl font-bold flex items-center text-gray-800"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              className="h-6 w-6 mr-2 text-blue-500"
+              className="h-5 w-5 md:h-6 md:w-6 mr-1 md:mr-2 text-blue-500"
               fill="none"
               viewBox="0 0 24 24"
               stroke="currentColor"
@@ -32,11 +84,11 @@ export default function Plants() {
           <nav>
             <Link
               href="/"
-              className="text-gray-600 hover:text-blue-500 transition-colors flex items-center font-medium"
+              className="text-sm md:text-base text-gray-600 hover:text-blue-500 transition-colors flex items-center font-medium"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                className="h-5 w-5 mr-1"
+                className="h-4 w-4 md:h-5 md:w-5 mr-1"
                 viewBox="0 0 20 20"
                 fill="currentColor"
               >
@@ -51,8 +103,8 @@ export default function Plants() {
       {/* Main Content */}
       <main className="container mx-auto py-8 px-4 md:px-8">
         {/* Hero Section */}
-        <div className="mb-10 text-center">
-          <h1 className="text-4xl md:text-5xl font-bold mb-4 text-blue-500">
+        <div className="mb-8 bg-white rounded-lg shadow-sm border border-gray-100 p-6 md:p-8 text-center">
+          <h1 className="text-3xl md:text-4xl font-bold mb-4 text-blue-500">
             Tanaman Herbal Indonesia
           </h1>
           <p className="text-gray-600 max-w-2xl mx-auto">
@@ -63,7 +115,7 @@ export default function Plants() {
         </div>
 
         {/* Search and Filter */}
-        <div className="bg-white rounded-lg shadow-sm border border-gray-100 p-5 mb-10">
+        <div className="bg-white rounded-lg shadow-sm border border-gray-100 p-6 mb-8">
           <div className="flex flex-col md:flex-row gap-4">
             <div className="flex-1 relative">
               <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
@@ -84,17 +136,33 @@ export default function Plants() {
                 type="text"
                 placeholder="Cari tanaman herbal..."
                 className="w-full pl-10 pr-4 py-3 rounded-lg border border-gray-200 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+                value={searchTerm}
+                onChange={(e) => setSearchTerm(e.target.value)}
               />
             </div>
-            <button className="bg-blue-500 hover:bg-blue-600 text-white px-6 py-3 rounded-lg transition-all shadow-sm hover:shadow-md font-medium">
+            <button
+              className="bg-blue-500 hover:bg-blue-600 text-white px-6 py-3 rounded-lg transition-all shadow-sm hover:shadow-md font-medium"
+              onClick={() => setSearchTerm(searchTerm)} // Trigger search
+            >
               Cari
             </button>
           </div>
+          {filteredPlants.length === 0 && (
+            <div className="mt-4 text-center text-gray-600">
+              Tidak ada tanaman yang sesuai dengan pencarian Anda.
+            </div>
+          )}
+          {searchTerm && filteredPlants.length > 0 && (
+            <div className="mt-4 text-gray-600">
+              Ditemukan {filteredPlants.length} tanaman untuk pencarian "
+              {searchTerm}"
+            </div>
+          )}
         </div>
 
         {/* Plants List */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-          {tanaman_herbal.map((plant) => (
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-8">
+          {currentPlants.map((plant) => (
             <div
               key={plant.id}
               className="bg-white rounded-lg shadow-sm border border-gray-100 overflow-hidden hover:shadow-md transition-all"
@@ -109,7 +177,7 @@ export default function Plants() {
                       {plant.nama}
                     </h3>
                     <p className="text-gray-500 text-sm italic">
-                      {plant.nama_latin}
+                      {plant.nama_latin || "Nama latin tidak tersedia"}
                     </p>
                   </div>
                 </div>
@@ -189,51 +257,118 @@ export default function Plants() {
         </div>
 
         {/* Pagination */}
-        <div className="mt-10 flex justify-center">
-          <nav className="inline-flex rounded-lg shadow-sm bg-white border border-gray-100">
-            <button className="px-4 py-2 text-gray-500 hover:text-blue-500 border-r border-gray-200">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                className="h-5 w-5"
-                viewBox="0 0 20 20"
-                fill="currentColor"
+        {filteredPlants.length > 0 && (
+          <div className="mt-8 mb-4 flex justify-center">
+            <nav className="inline-flex rounded-lg shadow-sm bg-white border border-gray-100">
+              <button
+                onClick={() => paginate(currentPage - 1)}
+                disabled={currentPage === 1}
+                className={`px-4 py-2 border-r border-gray-200 ${
+                  currentPage === 1
+                    ? "text-gray-300 cursor-not-allowed"
+                    : "text-gray-500 hover:text-blue-500"
+                }`}
               >
-                <path
-                  fillRule="evenodd"
-                  d="M12.707 5.293a1 1 0 010 1.414L9.414 10l3.293 3.293a1 1 0 01-1.414 1.414l-4-4a1 1 0 010-1.414l4-4a1 1 0 011.414 0z"
-                  clipRule="evenodd"
-                />
-              </svg>
-            </button>
-            <button className="px-4 py-2 text-blue-500 font-medium">1</button>
-            <button className="px-4 py-2 text-gray-500 hover:text-blue-500">
-              2
-            </button>
-            <button className="px-4 py-2 text-gray-500 hover:text-blue-500">
-              3
-            </button>
-            <button className="px-4 py-2 text-gray-500 hover:text-blue-500 border-l border-gray-200">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                className="h-5 w-5"
-                viewBox="0 0 20 20"
-                fill="currentColor"
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  className="h-5 w-5"
+                  viewBox="0 0 20 20"
+                  fill="currentColor"
+                >
+                  <path
+                    fillRule="evenodd"
+                    d="M12.707 5.293a1 1 0 010 1.414L9.414 10l3.293 3.293a1 1 0 01-1.414 1.414l-4-4a1 1 0 010-1.414l4-4a1 1 0 011.414 0z"
+                    clipRule="evenodd"
+                  />
+                </svg>
+              </button>
+
+              {startPage > 1 && (
+                <>
+                  <button
+                    onClick={() => paginate(1)}
+                    className={`px-4 py-2 text-gray-500 hover:text-blue-500`}
+                  >
+                    1
+                  </button>
+                  {startPage > 2 && (
+                    <span className="px-4 py-2 text-gray-500">...</span>
+                  )}
+                </>
+              )}
+
+              {pageNumbers.map((number) => (
+                <button
+                  key={number}
+                  onClick={() => paginate(number)}
+                  className={`px-4 py-2 ${
+                    currentPage === number
+                      ? "text-blue-500 font-medium"
+                      : "text-gray-500 hover:text-blue-500"
+                  }`}
+                >
+                  {number}
+                </button>
+              ))}
+
+              {endPage < totalPages && (
+                <>
+                  {endPage < totalPages - 1 && (
+                    <span className="px-4 py-2 text-gray-500">...</span>
+                  )}
+                  <button
+                    onClick={() => paginate(totalPages)}
+                    className={`px-4 py-2 text-gray-500 hover:text-blue-500`}
+                  >
+                    {totalPages}
+                  </button>
+                </>
+              )}
+
+              <button
+                onClick={() => paginate(currentPage + 1)}
+                disabled={currentPage === totalPages}
+                className={`px-4 py-2 border-l border-gray-200 ${
+                  currentPage === totalPages
+                    ? "text-gray-300 cursor-not-allowed"
+                    : "text-gray-500 hover:text-blue-500"
+                }`}
               >
-                <path
-                  fillRule="evenodd"
-                  d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z"
-                  clipRule="evenodd"
-                />
-              </svg>
-            </button>
-          </nav>
-        </div>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  className="h-5 w-5"
+                  viewBox="0 0 20 20"
+                  fill="currentColor"
+                >
+                  <path
+                    fillRule="evenodd"
+                    d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z"
+                    clipRule="evenodd"
+                  />
+                </svg>
+              </button>
+            </nav>
+          </div>
+        )}
+
+        {/* Showing results info */}
+        {filteredPlants.length > 0 && (
+          <div className="text-center text-gray-500 mb-8">
+            Menampilkan{" "}
+            {Math.min(
+              (currentPage - 1) * plantsPerPage + 1,
+              filteredPlants.length
+            )}{" "}
+            - {Math.min(currentPage * plantsPerPage, filteredPlants.length)}{" "}
+            dari {filteredPlants.length} tanaman
+          </div>
+        )}
       </main>
 
       {/* Footer */}
-      <footer className="bg-white border-t border-gray-100 py-6 mt-12">
+      <footer className="bg-white border-t border-gray-100 py-6 mt-8">
         <div className="container mx-auto px-4 md:px-8 text-center text-gray-600">
-          <p>&copy; 2023 Kamus Digital Etnomidisin. Hak Cipta Dilindungi.</p>
+          <p>&copy; 2025 Kamus Digital Etnomidisin. Hak Cipta Dilindungi.</p>
         </div>
       </footer>
     </div>
