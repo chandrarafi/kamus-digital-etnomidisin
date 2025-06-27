@@ -8,11 +8,10 @@ export function generateStaticParams() {
   }));
 }
 
-export default function PlantDetail({
+export default async function PlantDetail({
   params,
 }: {
   params: { id: string };
-  searchParams?: { [key: string]: string | string[] | undefined };
 }) {
   const plant = plantsData.tanaman_herbal.find(
     (p) => p.id === parseInt(params.id)
