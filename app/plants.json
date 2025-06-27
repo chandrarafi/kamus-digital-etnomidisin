@@ -1,0 +1,1888 @@
+{
+  "tanaman_herbal": [
+    {
+      "id": 1,
+      "nama": "Akar Baikal Skullcap",
+      "nama_latin": "Scutellaria baicalensis",
+      "pelafalan": "/sku-te-la-ri-a bai-ka-len-sis/",
+      "deskripsi": "Tanaman herbal dari Asia Timur, berakar berdaging, daun lanset, bunga ungu.",
+      "manfaat": [
+        "Antiinflamasi",
+        "Antioksidan",
+        "Menurunkan kecemasan",
+        "Melindungi hati",
+        "Mengobati infeksi saluran pernapasan",
+        "Mengatasi demam",
+        "Mengobati infeksi pencernaan",
+        "Mengobati penyakit hati"
+      ]
+    },
+    {
+      "id": 2,
+      "nama": "Akar Dandelion",
+      "nama_latin": "Taraxacum officinale",
+      "pelafalan": "/ta-rak-sa-kum o-fi-si-na-le/",
+      "deskripsi": "Tanaman liar berbunga kuning, bagian akar, daun, dan bunga digunakan.",
+      "manfaat": [
+        "Kaya antioksidan",
+        "Membantu menurunkan kolesterol",
+        "Menjaga kesehatan mata",
+        "Berpotensi membersihkan racun dari tubuh",
+        "Mendukung terapi kanker payudara"
+      ]
+    },
+    {
+      "id": 3,
+      "nama": "Akar Putri Malu",
+      "nama_latin": "Mimosa pudica",
+      "pelafalan": "/mi-mo-sa pu-di-ka/",
+      "deskripsi": "Tanaman liar dengan daun sensitif yang mengatup saat disentuh.",
+      "manfaat": [
+        "Mengatasi masalah pencernaan",
+        "Mempercepat penyembuhan luka",
+        "Menjaga kesehatan kulit",
+        "Meningkatkan daya tahan tubuh",
+        "Berpotensi mengatasi diabetes5"
+      ]
+    },
+    {
+      "id": 4,
+      "nama": "Akar Wangi",
+      "nama_latin": "Vetiveria zizanoides",
+      "pelafalan": "/ve-ti-ve-ri-a zi-za-noi-des/",
+      "deskripsi": "Rumput dengan akar harum, digunakan untuk minyak atsiri.",
+      "manfaat": ["Aromaterapi", "Menenangkan pikiran", "Mengusir serangga"]
+    },
+    {
+      "id": 5,
+      "nama": "Alang-alang",
+      "nama_latin": "Imperata cylindrica",
+      "pelafalan": "/im-pe-ra-ta si-lin-dri-ka/",
+      "deskripsi": "Rumput liar dengan akar putih, tumbuh di lahan terbuka.",
+      "manfaat": ["Menurunkan demam", "Diuretik (melancarkan buang air kecil)"]
+    },
+    {
+      "id": 6,
+      "nama": "Alpukat",
+      "nama_latin": "Persea americana",
+      "pelafalan": "/per-se-a a-me-ri-ka-na/",
+      "deskripsi": "Buah hijau berdaging lembut.",
+      "manfaat": [
+        "Menurunkan kolesterol LDL",
+        "Menjaga kesehatan jantung (lemak tak jenuh tunggal)",
+        "Baik untuk kulit dan mata"
+      ]
+    },
+    {
+      "id": 7,
+      "nama": "Ampadu Tanah",
+      "nama_latin": "Andrographis paniculata",
+      "pelafalan": "/an-dro-gra-fis pa-ni-ku-la-ta/",
+      "deskripsi": "Tanaman herbal pahit, sering digunakan dalam jamu.",
+      "manfaat": [
+        "Melancarkan peredaran darah",
+        "Meningkatkan daya tahan tubuh"
+      ]
+    },
+    {
+      "id": 8,
+      "nama": "Anggur",
+      "nama_latin": "Vitis vinifera",
+      "pelafalan": "/vi-tis vi-ni-fe-ra/",
+      "deskripsi": "Buah kecil, bulat, tumbuh bergerombol.",
+      "manfaat": [
+        "Antioksidan kuat (resveratrol)",
+        "Menjaga kesehatan jantung",
+        "Melindungi sel dari kerusakan",
+        "Anti-inflamasi"
+      ]
+    },
+    {
+      "id": 9,
+      "nama": "Apel",
+      "nama_latin": "Malus domestica",
+      "pelafalan": "/ma-lus do-mes-ti-ka/",
+      "deskripsi": "Buah bulat, kulit merah/hijau, daging renyah.",
+      "manfaat": [
+        "Menurunkan risiko penyakit jantung",
+        "Melancarkan pencernaan",
+        "Membantu mengontrol gula darah",
+        "Kaya antioksidan"
+      ]
+    },
+    {
+      "id": 10,
+      "nama": "Asam Jawa",
+      "nama_latin": "Tamarindus indica",
+      "pelafalan": "/ta-ma-rin-dus in-di-ka/",
+      "deskripsi": "Pohon besar, buah polong berisi daging asam.",
+      "manfaat": [
+        "Mengobati keputihan",
+        "Mengatasi masalah reproduksi",
+        "Penambah rasa masakan"
+      ]
+    },
+    {
+      "id": 11,
+      "nama": "Basil",
+      "nama_latin": "Ocimum basilicum",
+      "pelafalan": "/o-si-mum ba-si-li-kum/",
+      "deskripsi": "Tanaman daun hijau aromatik, sering digunakan dalam masakan.",
+      "manfaat": [
+        "Antiinflamasi",
+        "Antioksidan",
+        "Mendukung kesehatan pencernaan"
+      ]
+    },
+    {
+      "id": 12,
+      "nama": "Bawang Merah",
+      "nama_latin": "Allium cepa var. aggregatum",
+      "pelafalan": "/a-li-um se-pa/",
+      "deskripsi": "Umbi kecil berlapis, warna merah keunguan.",
+      "manfaat": ["Mengobati flu dan batuk", "Meningkatkan daya tahan tubuh"]
+    },
+    {
+      "id": 13,
+      "nama": "Bawang Putih",
+      "nama_latin": "Allium sativum",
+      "pelafalan": "/a-li-um sa-ti-vum/",
+      "deskripsi": "Umbi putih, aroma khas, sering digunakan sebagai bumbu.",
+      "manfaat": ["Antibiotik alami", "Membantu mengatasi infeksi"]
+    },
+    {
+      "id": 14,
+      "nama": "Belimbing Wuluh",
+      "nama_latin": "Averrhoa bilimbi",
+      "pelafalan": "/a-ver-ro-a bi-lim-bi/",
+      "deskripsi": "Buah lonjong, hijau, rasa sangat asam.",
+      "manfaat": ["Menurunkan tekanan darah", "Bumbu masakan"]
+    },
+    {
+      "id": 15,
+      "nama": "Belimbing",
+      "nama_latin": "Averrhoa carambola",
+      "pelafalan": "/a-ver-ro-a ka-ram-bo-la/",
+      "deskripsi": "Buah berbentuk bintang saat diiris, rasa manis-asam.",
+      "manfaat": [
+        "Sumber vitamin C",
+        "Antioksidan",
+        "Baik untuk pencernaan (hati-hati untuk penderita ginjal)"
+      ]
+    },
+    {
+      "id": 16,
+      "nama": "Beluntas",
+      "nama_latin": "Pluchea indica",
+      "pelafalan": "/plu-ke-a in-di-ka/",
+      "deskripsi": "Semak dengan daun kecil aromatik, sering sebagai lalapan.",
+      "manfaat": [
+        "Mengatasi gangguan reproduksi",
+        "Mengobati herpes",
+        "Mengatasi bau badan"
+      ]
+    },
+    {
+      "id": 17,
+      "nama": "Belut",
+      "nama_latin": "Monopterus albus",
+      "pelafalan": "/mo-nop-te-rus al-bus/",
+      "deskripsi": "Hewan air tawar berbentuk silindris, tanpa sisik.",
+      "manfaat": [
+        "Sumber protein",
+        "Baik untuk kesehatan mata (mengandung vitamin A)"
+      ]
+    },
+    {
+      "id": 18,
+      "nama": "Beras",
+      "nama_latin": "Oryza sativa",
+      "pelafalan": "/o-ri-za sa-ti-va/",
+      "deskripsi": "Biji-bijian pokok, sumber karbohidrat utama.",
+      "manfaat": [
+        "Mengatasi panas dalam",
+        "Mengatasi biang keringat",
+        "Sumber energi"
+      ]
+    },
+    {
+      "id": 19,
+      "nama": "Biji Chia",
+      "nama_latin": "Salvia hispanica",
+      "pelafalan": "/sal-vi-a his-pa-ni-ka/",
+      "deskripsi": "Biji kecil hitam/abu-abu, berasal dari tanaman Salvia.",
+      "manfaat": [
+        "Sumber omega-3",
+        "Sumber serat",
+        "Baik untuk kesehatan jantung dan pencernaan"
+      ]
+    },
+    {
+      "id": 20,
+      "nama": "Biji Fenugreek",
+      "nama_latin": "Trigonella foenum-graecum",
+      "pelafalan": "/tri-go-ne-la fe-num-gre-kum/",
+      "deskripsi": "Biji kecil kuning kecoklatan, sering digunakan sebagai rempah.",
+      "manfaat": ["Membantu mengatasi diabetes", "Meningkatkan produksi ASI"]
+    },
+    {
+      "id": 21,
+      "nama": "Biji Kacang Merah",
+      "nama_latin": "Phaseolus vulgaris",
+      "pelafalan": "/fa-se-o-lus vul-ga-ris/",
+      "deskripsi": "Biji kecil berwarna merah tua, umum digunakan dalam masakan.",
+      "manfaat": [
+        "Menurunkan kolesterol",
+        "Membantu mengontrol gula darah",
+        "Sumber protein dan serat"
+      ]
+    },
+    {
+      "id": 22,
+      "nama": "Biji Kedelai",
+      "nama_latin": "Glycine max",
+      "pelafalan": "/gli-si-ne maks/",
+      "deskripsi": "Biji bulat kecil berwarna kuning kehijauan, bahan dasar tahu dan tempe.",
+      "manfaat": [
+        "Meningkatkan kesehatan tulang",
+        "Kaya protein nabati dan isoflavon",
+        "Menurunkan risiko osteoporosis"
+      ]
+    },
+    {
+      "id": 23,
+      "nama": "Biji Pala",
+      "nama_latin": "Myristica fragrans",
+      "pelafalan": "/mi-ris-ti-ka fra-grans/",
+      "deskripsi": "Biji berbentuk bulat kecil dengan aroma khas rempah, berasal dari pohon pala.",
+      "manfaat": [
+        "Mengurangi nyeri",
+        "Meningkatkan sirkulasi darah",
+        "Membantu pencernaan",
+        "Mengatasi insomnia"
+      ]
+    },
+    {
+      "id": 24,
+      "nama": "Biji Pinang",
+      "nama_latin": "Areca catechu",
+      "pelafalan": "/a-re-ka ka-te-ku/",
+      "deskripsi": "Biji keras berwarna coklat kemerahan dari pohon pinang.",
+      "manfaat": [
+        "Mengobati diare",
+        "Digunakan dalam tradisi mengunyah pinang untuk stimulasi"
+      ]
+    },
+    {
+      "id": 25,
+      "nama": "Bisa Ular",
+      "nama_latin": null,
+      "pelafalan": "/bi-sa u-lar/",
+      "deskripsi": "Racun yang dihasilkan oleh ular berbisa, digunakan dalam pengobatan modern.",
+      "manfaat": [
+        "Digunakan untuk membuat antivenom (penawar racun ular)",
+        "Sebagai analgesik (pereda nyeri)"
+      ]
+    },
+    {
+      "id": 26,
+      "nama": "Blueberry",
+      "nama_latin": "Vaccinium spp.",
+      "pelafalan": "/vak-si-ni-um/",
+      "deskripsi": "Buah kecil berwarna biru keunguan, kaya antioksidan.",
+      "manfaat": [
+        "Antioksidan super (antosianin)",
+        "Meningkatkan fungsi otak dan memori",
+        "Menjaga kesehatan mata"
+      ]
+    },
+    {
+      "id": 27,
+      "nama": "Bomban",
+      "nama_latin": null,
+      "pelafalan": "/bom-ban/",
+      "deskripsi": "Tanaman herbal lokal, sering digunakan untuk pengobatan tradisional.",
+      "manfaat": ["Mengobati bisul", "Mengobati luka luar"]
+    },
+    {
+      "id": 28,
+      "nama": "Buah Jeruk Nipis",
+      "nama_latin": "Citrus aurantiifolia",
+      "pelafalan": "/sit-rus au-ran-ti-i-fo-li-a/",
+      "deskripsi": "Buah kecil berwarna hijau kekuningan, rasa asam segar.",
+      "manfaat": [
+        "Mengobati batuk",
+        "Meningkatkan sistem imun",
+        "Membantu pencernaan"
+      ]
+    },
+    {
+      "id": 29,
+      "nama": "Buah Kelapa",
+      "nama_latin": "Cocos nucifera",
+      "pelafalan": "/ko-kos nu-ci-fe-ra/",
+      "deskripsi": "Buah tropis besar dengan daging putih dan air kelapa.",
+      "manfaat": [
+        "Mencegah batu ginjal",
+        "Menghidrasi tubuh",
+        "Sumber elektrolit alami"
+      ]
+    },
+    {
+      "id": 30,
+      "nama": "Buah Mengkudu",
+      "nama_latin": "Morinda citrifolia",
+      "pelafalan": "/mo-rin-da si-tri-fo-li-a/",
+      "deskripsi": "Buah berwarna kuning kehijauan dengan bau khas menyengat.",
+      "manfaat": ["Obat diabetes", "Meningkatkan sistem imun", "Antiinflamasi"]
+    },
+    {
+      "id": 31,
+      "nama": "Bunga Chamomile",
+      "nama_latin": "Matricaria chamomilla",
+      "pelafalan": "/ma-tri-ka-ri-a ka-mo-mi-la/",
+      "deskripsi": "Bunga kecil putih dengan pusat kuning, sering digunakan sebagai teh herbal.",
+      "manfaat": [
+        "Menenangkan",
+        "Membantu tidur",
+        "Meredakan kecemasan",
+        "Mengatasi gangguan pencernaan"
+      ]
+    },
+    {
+      "id": 32,
+      "nama": "Bunga Lavender",
+      "nama_latin": "Lavandula angustifolia",
+      "pelafalan": "/la-van-du-la an-gus-ti-fo-li-a/",
+      "deskripsi": "Bunga ungu aromatik, digunakan dalam aromaterapi.",
+      "manfaat": [
+        "Mengurangi stres",
+        "Meningkatkan kualitas tidur",
+        "Antiseptik ringan"
+      ]
+    },
+    {
+      "id": 33,
+      "nama": "Bunga Rosella",
+      "nama_latin": "Hibiscus sabdariffa",
+      "pelafalan": "/hi-bis-kus sab-da-rif-fa/",
+      "deskripsi": "Bunga merah cerah, sering dibuat teh asam segar.",
+      "manfaat": ["Menurunkan tekanan darah", "Kaya vitamin C dan antioksidan"]
+    },
+    {
+      "id": 34,
+      "nama": "Cabe Jawa",
+      "nama_latin": "Piper retrofractum",
+      "pelafalan": "/pi-per ret-ro-frak-tum/",
+      "deskripsi": "Rempah berbentuk kecil dan panjang, rasa pedas khas.",
+      "manfaat": [
+        "Meningkatkan stamina",
+        "Melancarkan pencernaan",
+        "Meningkatkan nafsu makan"
+      ]
+    },
+    {
+      "id": 35,
+      "nama": "Caramei",
+      "nama_latin": null,
+      "pelafalan": "/ka-ra-mei/",
+      "deskripsi": "Tanaman herbal lokal, digunakan dalam pengobatan tradisional.",
+      "manfaat": ["Mengobati sariawan", "Meningkatkan nafsu makan"]
+    },
+    {
+      "id": 36,
+      "nama": "Cecak",
+      "nama_latin": null,
+      "pelafalan": "/ce-cak/",
+      "deskripsi": "Reptil kecil yang sering ditemukan di rumah.",
+      "manfaat": [
+        "Dalam pengobatan tradisional, digunakan untuk mengobati gatal-gatal"
+      ]
+    },
+    {
+      "id": 37,
+      "nama": "Cendana",
+      "nama_latin": "Santalum album",
+      "pelafalan": "/san-ta-lum al-bum/",
+      "deskripsi": "Kayu aromatik berwarna coklat kemerahan, digunakan dalam parfum dan obat.",
+      "manfaat": ["Aromaterapi", "Pengobatan kulit seperti jerawat dan iritasi"]
+    },
+    {
+      "id": 38,
+      "nama": "Cengkeh",
+      "nama_latin": "Syzygium aromaticum",
+      "pelafalan": "/si-zi-ji-um a-ro-ma-ti-kum/",
+      "deskripsi": "Bunga kering berbentuk paku kecil, aroma khas rempah.",
+      "manfaat": [
+        "Mengurangi rasa nyeri dan infeksi",
+        "Meredakan sakit gigi",
+        "Antiseptik alami"
+      ]
+    },
+    {
+      "id": 39,
+      "nama": "Daun Bawang",
+      "nama_latin": "Allium fistulosum",
+      "pelafalan": "/a-li-um fis-tu-lo-sum/",
+      "deskripsi": "Tanaman umbi dengan daun panjang berongga, digunakan sebagai bumbu.",
+      "manfaat": [
+        "Meningkatkan pencernaan",
+        "Sumber vitamin dan mineral",
+        "Membantu melancarkan peredaran darah"
+      ]
+    },
+    {
+      "id": 40,
+      "nama": "Daun Binahong",
+      "nama_latin": "Anredera cordifolia",
+      "pelafalan": "/an-re-de-ra kor-di-fo-li-a/",
+      "deskripsi": "Tanaman merambat tropis dengan daun hijau berbentuk hati, kaya flavonoid, saponin, dan tanin.",
+      "manfaat": [
+        "Mempercepat penyembuhan luka (termasuk luka bakar dan bekas operasi)",
+        "Efek antiseptik, antiinflamasi, dan pembentukan kolagen",
+        "Mengatasi diare",
+        "Menurunkan kolesterol",
+        "Meningkatkan memori",
+        "Meredakan peradangan dan nyeri",
+        "Berpotensi mencegah kanker",
+        "Meningkatkan sirkulasi darah dan stamina tubuh"
+      ]
+    },
+    {
+      "id": 41,
+      "nama": "Daun Bunga Kecombrang",
+      "nama_latin": "Zingiber zerumbet",
+      "pelafalan": "/zing-i-ber ze-rum-bet/",
+      "deskripsi": "Tanaman rimpang beraroma khas, sering dipakai dalam masakan dan obat tradisional.",
+      "manfaat": [
+        "Mengatasi gangguan pencernaan",
+        "Meredakan peradangan",
+        "Membantu sistem pencernaan"
+      ]
+    },
+    {
+      "id": 42,
+      "nama": "Daun Bunga Matahari",
+      "nama_latin": "Helianthus annuus",
+      "pelafalan": "/he-li-an-thus an-nuus/",
+      "deskripsi": "Daun tanaman bunga matahari, kaya antioksidan dan nutrisi.",
+      "manfaat": ["Meningkatkan sistem imun", "Kesehatan tubuh secara umum"]
+    },
+    {
+      "id": 43,
+      "nama": "Daun Cendana",
+      "nama_latin": "Santalum album",
+      "pelafalan": "/san-ta-lum al-bum/",
+      "deskripsi": "Daun dari pohon cendana yang aromatik.",
+      "manfaat": ["Menenangkan pikiran", "Aromaterapi", "Pengobatan kulit"]
+    },
+    {
+      "id": 44,
+      "nama": "Daun Ceri",
+      "nama_latin": "Prunus avium",
+      "pelafalan": "/pru-nus a-vi-um/",
+      "deskripsi": "Daun pohon ceri, kaya senyawa antiinflamasi.",
+      "manfaat": ["Mengurangi peradangan", "Mengurangi nyeri"]
+    },
+    {
+      "id": 45,
+      "nama": "Daun Dewa",
+      "nama_latin": "Gynura procumbens",
+      "pelafalan": "/gi-nu-ra pro-kum-bens/",
+      "deskripsi": "Tanaman herbal dengan daun hijau lebar.",
+      "manfaat": [
+        "Mengobati kanker",
+        "Menurunkan kolesterol",
+        "Antiinflamasi",
+        "Meningkatkan kesehatan jantung"
+      ]
+    },
+    {
+      "id": 46,
+      "nama": "Daun Gandarusa",
+      "nama_latin": "Justicia gendarussa",
+      "pelafalan": "/jus-ti-si-a gen-da-rus-sa/",
+      "deskripsi": "Tanaman semak dengan daun hijau.",
+      "manfaat": [
+        "Mengobati memar",
+        "Mengatasi peradangan",
+        "Mengurangi rasa sakit"
+      ]
+    },
+    {
+      "id": 47,
+      "nama": "Daun Ginkgo",
+      "nama_latin": "Ginkgo biloba",
+      "pelafalan": "/ging-ko bi-lo-ba/",
+      "deskripsi": "Daun berbentuk kipas dari pohon ginkgo.",
+      "manfaat": [
+        "Meningkatkan memori",
+        "Meningkatkan sirkulasi darah",
+        "Meningkatkan fungsi otak"
+      ]
+    },
+    {
+      "id": 48,
+      "nama": "Daun Ginseng",
+      "nama_latin": "Panax ginseng",
+      "pelafalan": "/pa-naks gin-seng/",
+      "deskripsi": "Daun tanaman ginseng yang dikenal sebagai tonik stamina.",
+      "manfaat": [
+        "Meningkatkan stamina",
+        "Meningkatkan energi",
+        "Meningkatkan daya tahan tubuh"
+      ]
+    },
+    {
+      "id": 49,
+      "nama": "Daun Jambu Biji",
+      "nama_latin": "Psidium guajava",
+      "pelafalan": "/si-di-um gwa-ja-va/",
+      "deskripsi": "Daun pohon jambu biji, kaya tanin dan antioksidan.",
+      "manfaat": [
+        "Mengatasi diare",
+        "Antiinflamasi",
+        "Membantu penyembuhan luka"
+      ]
+    },
+    {
+      "id": 50,
+      "nama": "Daun Jarak",
+      "nama_latin": "Ricinus communis",
+      "pelafalan": "/ri-si-nus ko-myu-nis/",
+      "deskripsi": "Daun pohon jarak, besar dan lebar.",
+      "manfaat": [
+        "Mengobati nyeri",
+        "Mengatasi sembelit",
+        "Mengatasi sesak napas",
+        "Mengatasi peradangan"
+      ]
+    },
+    {
+      "id": 51,
+      "nama": "Daun Jati Belanda",
+      "nama_latin": "Guazuma ulmifolia",
+      "pelafalan": "/gwa-zu-ma ul-mi-fo-li-a/",
+      "deskripsi": "Daun pohon jati belanda.",
+      "manfaat": ["Menurunkan berat badan", "Membantu metabolisme"]
+    },
+    {
+      "id": 52,
+      "nama": "Daun Jatropha",
+      "nama_latin": "Jatropha curcas",
+      "pelafalan": "/ja-tro-fa kur-kas/",
+      "deskripsi": "Daun tanaman jatropha, sering digunakan sebagai obat luka.",
+      "manfaat": ["Mengobati luka", "Mengobati infeksi kulit"]
+    },
+    {
+      "id": 53,
+      "nama": "Daun Kacang Panjang",
+      "nama_latin": "Vigna unguiculata",
+      "pelafalan": "/vi-gna un-gwi-ku-la-ta/",
+      "deskripsi": "Daun tanaman kacang panjang.",
+      "manfaat": ["Menyembuhkan anemia", "Kaya zat besi dan nutrisi"]
+    },
+    {
+      "id": 54,
+      "nama": "Daun Kayu Putih",
+      "nama_latin": "Eucalyptus",
+      "pelafalan": "/yu-ka-li-ptus/",
+      "deskripsi": "Daun aromatik dari pohon kayu putih.",
+      "manfaat": [
+        "Meredakan batuk",
+        "Mengobati flu",
+        "Mengatasi gangguan pernapasan"
+      ]
+    },
+    {
+      "id": 55,
+      "nama": "Daun Kelor",
+      "nama_latin": "Moringa oleifera",
+      "pelafalan": "/mo-rin-ga o-lei-fe-ra/",
+      "deskripsi": "Daun pohon kelor, kaya vitamin dan mineral.",
+      "manfaat": [
+        "Sumber vitamin dan mineral penting",
+        "Antioksidan",
+        "Mendukung kesehatan tubuh"
+      ]
+    },
+    {
+      "id": 56,
+      "nama": "Daun Kemangi",
+      "nama_latin": "Ocimum basilicum",
+      "pelafalan": "/o-si-mum ba-si-li-kum/",
+      "deskripsi": "Daun aromatik kecil, sering digunakan sebagai lalapan.",
+      "manfaat": ["Mengatasi gangguan pencernaan", "Antiinflamasi ringan"]
+    },
+    {
+      "id": 57,
+      "nama": "Daun Kembang Sepatu",
+      "nama_latin": "Hibiscus rosa-sinensis",
+      "pelafalan": "/hi-bis-kus ro-sa si-nen-sis/",
+      "deskripsi": "Daun tanaman kembang sepatu.",
+      "manfaat": [
+        "Meningkatkan kesehatan rambut",
+        "Menjaga kesehatan kulit kepala"
+      ]
+    },
+    {
+      "id": 58,
+      "nama": "Daun Kumis Kucing",
+      "nama_latin": "Orthosiphon aristatus",
+      "pelafalan": "/or-to-si-fon a-ris-ta-tus/",
+      "deskripsi": "Daun tanaman herbal dengan bentuk unik.",
+      "manfaat": ["Mengobati mata katarak", "Mengatasi masalah ginjal"]
+    },
+    {
+      "id": 59,
+      "nama": "Daun Lidah Buaya",
+      "nama_latin": "Aloe vera",
+      "pelafalan": "/a-lo-ve-ra/",
+      "deskripsi": "Daun berdaging tebal berisi gel.",
+      "manfaat": [
+        "Menyembuhkan luka bakar",
+        "Melembapkan kulit",
+        "Mempercepat regenerasi kulit"
+      ]
+    },
+    {
+      "id": 60,
+      "nama": "Daun Mint",
+      "nama_latin": "Mentha",
+      "pelafalan": "/men-tha/",
+      "deskripsi": "Daun aromatik segar.",
+      "manfaat": [
+        "Meredakan sakit perut",
+        "Mengatasi gangguan pencernaan",
+        "Memberikan efek menenangkan"
+      ]
+    },
+    {
+      "id": 61,
+      "nama": "Daun Moringa",
+      "nama_latin": "Moringa oleifera",
+      "pelafalan": "/mo-rin-ga o-lei-fe-ra/",
+      "deskripsi": "Sama seperti daun kelor, kaya nutrisi dan antioksidan.",
+      "manfaat": ["Kaya nutrisi", "Meningkatkan imun", "Antioksidan kuat"]
+    },
+    {
+      "id": 62,
+      "nama": "Daun Nangka",
+      "nama_latin": "Artocarpus heterophyllus",
+      "pelafalan": "/ar-to-kar-pus he-te-ro-fi-lus/",
+      "deskripsi": "Daun pohon nangka.",
+      "manfaat": ["Menyembuhkan diare", "Mengatasi gangguan pencernaan"]
+    },
+    {
+      "id": 63,
+      "nama": "Daun Pala",
+      "nama_latin": "Myristica fragrans",
+      "pelafalan": "/mi-ris-ti-ka fra-grans/",
+      "deskripsi": "Daun dari pohon pala.",
+      "manfaat": ["Meningkatkan pencernaan", "Meredakan stres"]
+    },
+    {
+      "id": 64,
+      "nama": "Daun Pepaya",
+      "nama_latin": "Carica papaya",
+      "pelafalan": "/ka-ri-ka pa-pa-ya/",
+      "deskripsi": "Daun pohon pepaya.",
+      "manfaat": [
+        "Meningkatkan kesehatan pencernaan",
+        "Mengobati demam berdarah",
+        "Mengobati malaria"
+      ]
+    },
+    {
+      "id": 65,
+      "nama": "Daun Petai",
+      "nama_latin": "Parkia speciosa",
+      "pelafalan": "/par-ki-a spe-ci-o-sa/",
+      "deskripsi": "Daun pohon petai.",
+      "manfaat": ["Mengatasi masalah pencernaan", "Diuretik ringan"]
+    },
+    {
+      "id": 66,
+      "nama": "Daun Salayo",
+      "nama_latin": null,
+      "pelafalan": "/sa-la-yo/",
+      "deskripsi": "Tanaman herbal lokal.",
+      "manfaat": ["Mengatasi perut melilit", "Mengatasi gangguan pencernaan"]
+    },
+    {
+      "id": 67,
+      "nama": "Daun Seledri",
+      "nama_latin": "Apium graveolens",
+      "pelafalan": "/a-pi-um gra-ve-o-lens/",
+      "deskripsi": "Daun hijau aromatik.",
+      "manfaat": ["Menurunkan tekanan darah", "Membantu pencernaan"]
+    },
+    {
+      "id": 68,
+      "nama": "Daun Sikiarau/Sikumpai",
+      "nama_latin": null,
+      "pelafalan": "/si-ki-a-rau/ atau /si-kum-pai/",
+      "deskripsi": "Tanaman herbal lokal.",
+      "manfaat": ["Menurunkan panas", "Mengatasi demam"]
+    },
+    {
+      "id": 69,
+      "nama": "Daun Sirih",
+      "nama_latin": "Piper betle",
+      "pelafalan": "/pi-per bet-le/",
+      "deskripsi": "Daun aromatik hijau.",
+      "manfaat": [
+        "Mengatasi bau badan",
+        "Mencegah keputihan area kewanitaan",
+        "Antiseptik alami"
+      ]
+    },
+    {
+      "id": 70,
+      "nama": "Daun Sirsak",
+      "nama_latin": "Annona muricata",
+      "pelafalan": "/a-no-na mu-ri-ka-ta/",
+      "deskripsi": "Daun pohon sirsak.",
+      "manfaat": [
+        "Digunakan sebagai obat kanker",
+        "Mengobati penyakit gula (diabetes)",
+        "Antioksidan kuat"
+      ]
+    },
+    {
+      "id": 71,
+      "nama": "Daun Sosor Bebek",
+      "nama_latin": "Bryophyllum pinnatum / Kalanchoe pinnata",
+      "pelafalan": "/brai-lo-fi-lum pi-na-tum/ atau /ka-lan-ko-e pi-na-ta/",
+      "deskripsi": "Tanaman hias merambat dengan daun lebar dan mengkilap, dikenal juga sebagai daun cocor bebek.",
+      "manfaat": [
+        "Mengobati diare",
+        "Memiliki sifat antibakteri",
+        "Antiinflamasi",
+        "Mempercepat penyembuhan luka",
+        "Meredakan demam",
+        "Meningkatkan sistem imun",
+        "Menurunkan tekanan darah",
+        "Menjaga kesehatan pencernaan"
+      ]
+    },
+    {
+      "id": 72,
+      "nama": "Daun Sungkai",
+      "nama_latin": "Peronema canescens",
+      "pelafalan": "/pe-ro-ne-ma ka-nes-sens/",
+      "deskripsi": "Daun dari pohon sungkai, tumbuh di daerah tropis.",
+      "manfaat": ["Digunakan sebagai obat tradisional untuk malaria"]
+    },
+    {
+      "id": 73,
+      "nama": "Daun Teh Hijau",
+      "nama_latin": "Camellia sinensis",
+      "pelafalan": "/ka-me-li-a si-ne-sis/",
+      "deskripsi": "Daun dari tanaman teh hijau, kaya antioksidan.",
+      "manfaat": [
+        "Kaya antioksidan",
+        "Meningkatkan metabolisme",
+        "Membantu menurunkan berat badan",
+        "Menjaga kesehatan jantung"
+      ]
+    },
+    {
+      "id": 74,
+      "nama": "Daun Ubi Jalar",
+      "nama_latin": "Ipomoea batatas",
+      "pelafalan": "/i-po-me-a ba-ta-tas/",
+      "deskripsi": "Daun tanaman ubi jalar, hijau dan kaya nutrisi.",
+      "manfaat": [
+        "Kaya serat dan nutrisi",
+        "Membantu pencernaan",
+        "Meningkatkan kesehatan tubuh"
+      ]
+    },
+    {
+      "id": 75,
+      "nama": "Daun Ungu",
+      "nama_latin": "Graptophyllum pictum",
+      "pelafalan": "/grap-to-fi-lum pik-tum/",
+      "deskripsi": "Daun berwarna ungu kemerahan, tanaman herbal.",
+      "manfaat": ["Mengatasi bengkak dan keseleo", "Antiinflamasi"]
+    },
+    {
+      "id": 76,
+      "nama": "Delima",
+      "nama_latin": "Punica granatum",
+      "pelafalan": "/pu-ni-ka gra-na-tum/",
+      "deskripsi": "Buah merah berbiji banyak, kaya antioksidan.",
+      "manfaat": [
+        "Antioksidan tinggi",
+        "Anti-inflamasi",
+        "Menjaga kesehatan jantung",
+        "Berpotensi antikanker"
+      ]
+    },
+    {
+      "id": 77,
+      "nama": "Delima",
+      "nama_latin": "Punica granatum",
+      "pelafalan": "/pu-ni-ka gra-na-tum/",
+      "deskripsi": "Sama seperti nomor 76.",
+      "manfaat": [
+        "Mengobati anemia",
+        "Mengobati luka",
+        "Mempercepat penyembuhan"
+      ]
+    },
+    {
+      "id": 78,
+      "nama": "Duku",
+      "nama_latin": "Lansium parasiticum",
+      "pelafalan": "/lan-si-um pa-ra-si-ti-kum/",
+      "deskripsi": "Buah kecil berkulit tipis, manis dan segar.",
+      "manfaat": [
+        "Sumber antioksidan",
+        "Meningkatkan energi",
+        "Melancarkan pencernaan"
+      ]
+    },
+    {
+      "id": 79,
+      "nama": "Durian",
+      "nama_latin": "Durio zibethinus",
+      "pelafalan": "/du-ri-o zi-be-ti-nus/",
+      "deskripsi": "Buah besar berduri, aroma khas, daging lembut.",
+      "manfaat": [
+        "Sumber energi tinggi",
+        "Kaya serat",
+        "Kaya mineral seperti kalium dan tembaga",
+        "Membantu pencernaan"
+      ]
+    },
+    {
+      "id": 80,
+      "nama": "Eceng Gondok",
+      "nama_latin": "Eichhornia crassipes",
+      "pelafalan": "/aik-hor-ni-a kras-si-pes/",
+      "deskripsi": "Tanaman air terapung dengan bunga ungu muda.",
+      "manfaat": [
+        "Digunakan dalam pengobatan tradisional untuk mengatasi gondok (pembengkakan kelenjar tiroid)"
+      ]
+    },
+    {
+      "id": 81,
+      "nama": "Ekor Kucing",
+      "nama_latin": "Orthosiphon aristatus",
+      "pelafalan": "/or-to-si-fon a-ris-ta-tus/",
+      "deskripsi": "Tanaman perdu dengan bunga ungu seperti ekor kucing, daun lonjong, tinggi 2-3 meter.",
+      "manfaat": [
+        "Mengobati batu ginjal",
+        "Mengobati infeksi saluran kemih",
+        "Menurunkan kadar asam urat",
+        "Menurunkan kolesterol",
+        "Meredakan rematik",
+        "Meningkatkan fungsi ginjal",
+        "Antioksidan",
+        "Antiinflamasi"
+      ]
+    },
+    {
+      "id": 82,
+      "nama": "Fennel",
+      "nama_latin": "Foeniculum vulgare",
+      "pelafalan": "/foe-ni-cu-lum vul-ga-re/",
+      "deskripsi": "Tanaman herbal beraroma manis, daun dan bijinya digunakan.",
+      "manfaat": [
+        "Meredakan kembung",
+        "Meningkatkan produksi ASI",
+        "Membantu pencernaan"
+      ]
+    },
+    {
+      "id": 83,
+      "nama": "Fenugreek",
+      "nama_latin": "Trigonella foenum-graecum",
+      "pelafalan": "/tri-go-ne-la fe-num-gre-kum/",
+      "deskripsi": "Biji rempah kecil kuning kecoklatan.",
+      "manfaat": [
+        "Mengontrol kadar gula darah",
+        "Meningkatkan produksi ASI",
+        "Antiinflamasi"
+      ]
+    },
+    {
+      "id": 84,
+      "nama": "Flamboyant",
+      "nama_latin": "Delonix regia",
+      "pelafalan": "/de-lo-niks re-gia/",
+      "deskripsi": "Pohon besar dengan bunga merah mencolok.",
+      "manfaat": ["Mengobati disentri", "Mengatasi gangguan pencernaan"]
+    },
+    {
+      "id": 85,
+      "nama": "Gaharu",
+      "nama_latin": "Aquilaria malaccensis",
+      "pelafalan": "/a-kwi-la-ri-a ma-lak-sen-sis/",
+      "deskripsi": "Kayu aromatik yang menghasilkan resin gaharu.",
+      "manfaat": [
+        "Aromaterapi",
+        "Pengobatan tradisional",
+        "Antiseptik",
+        "Antiinflamasi"
+      ]
+    },
+    {
+      "id": 86,
+      "nama": "Gambir",
+      "nama_latin": "Uncaria gambir",
+      "pelafalan": "/un-ka-ri-a gam-bir/",
+      "deskripsi": "Tanaman merambat dengan ekstrak tanin tinggi.",
+      "manfaat": [
+        "Antioksidan",
+        "Mengatasi diare",
+        "Mengobati luka",
+        "Antiseptik"
+      ]
+    },
+    {
+      "id": 87,
+      "nama": "Gandarusa",
+      "nama_latin": "Justicia gendarussa",
+      "pelafalan": "/jus-ti-si-a gen-da-rus-sa/",
+      "deskripsi": "Semak dengan daun hijau.",
+      "manfaat": ["Mengobati rematik", "Mengatasi nyeri sendi"]
+    },
+    {
+      "id": 88,
+      "nama": "Ginseng",
+      "nama_latin": "Panax ginseng",
+      "pelafalan": "/pa-naks gin-seng/",
+      "deskripsi": "Akar herbal tonik stamina.",
+      "manfaat": ["Meningkatkan energi", "Meningkatkan daya tahan tubuh"]
+    },
+    {
+      "id": 89,
+      "nama": "Goji Berry",
+      "nama_latin": "Lycium barbarum",
+      "pelafalan": "/li-si-um bar-ba-rum/",
+      "deskripsi": "Buah merah kecil, dikenal sebagai superfood.",
+      "manfaat": ["Meningkatkan sistem kekebalan tubuh", "Antioksidan"]
+    },
+    {
+      "id": 90,
+      "nama": "Habbatussauda",
+      "nama_latin": "Nigella sativa",
+      "pelafalan": "/ni-gel-la sa-ti-va/",
+      "deskripsi": "Biji hitam kecil dari tanaman Nigella.",
+      "manfaat": ["Meningkatkan sistem kekebalan tubuh", "Antiinflamasi"]
+    },
+    {
+      "id": 91,
+      "nama": "Harendong",
+      "nama_latin": "Syzygium cumini",
+      "pelafalan": "/si-zi-ji-um ku-mi-ni/",
+      "deskripsi": "Buah dan daun dari pohon harendong.",
+      "manfaat": ["Mengobati diabetes", "Menurunkan kolesterol"]
+    },
+    {
+      "id": 92,
+      "nama": "Himalaya",
+      "nama_latin": null,
+      "pelafalan": "/hi-ma-la-ya/",
+      "deskripsi": "Produk herbal untuk detoksifikasi dan perawatan kulit.",
+      "manfaat": ["Detoksifikasi tubuh", "Perawatan kulit"]
+    },
+    {
+      "id": 93,
+      "nama": "Inggu",
+      "nama_latin": null,
+      "pelafalan": "/in-gu/",
+      "deskripsi": "Tanaman herbal tradisional.",
+      "manfaat": ["Mengobati asma", "Mengobati bronkitis"]
+    },
+    {
+      "id": 94,
+      "nama": "Insulin",
+      "nama_latin": null,
+      "pelafalan": "/in-su-lin/",
+      "deskripsi": "Hormon untuk mengontrol gula darah.",
+      "manfaat": ["Mengobati diabetes dengan mengatur kadar gula darah"]
+    },
+    {
+      "id": 95,
+      "nama": "Jahe",
+      "nama_latin": "Zingiber officinale",
+      "pelafalan": "/zing-i-ber o-fi-si-na-le/",
+      "deskripsi": "Rimpang aromatik dan pedas.",
+      "manfaat": ["Meredakan mual", "Meningkatkan sistem imun", "Antiinflamasi"]
+    },
+    {
+      "id": 96,
+      "nama": "Jambu Air",
+      "nama_latin": "Syzygium aqueum",
+      "pelafalan": "/si-zi-ji-um a-kwe-um/",
+      "deskripsi": "Buah berair manis dan segar.",
+      "manfaat": [
+        "Menghidrasi tubuh",
+        "Sumber serat dan antioksidan",
+        "Mendinginkan tubuh"
+      ]
+    },
+    {
+      "id": 97,
+      "nama": "Jambu Biji",
+      "nama_latin": "Psidium guajava",
+      "pelafalan": "/si-di-um gwa-ja-va/",
+      "deskripsi": "Buah kaya vitamin C.",
+      "manfaat": [
+        "Meningkatkan trombosit (penting pada DBD)",
+        "Melancarkan pencernaan"
+      ]
+    },
+    {
+      "id": 98,
+      "nama": "Jarak",
+      "nama_latin": "Ricinus communis",
+      "pelafalan": "/ri-si-nus ko-myu-nis/",
+      "deskripsi": "Tanaman dengan biji beracun, daun besar.",
+      "manfaat": ["Obat pencahar", "Bahan bakar biodiesel"]
+    },
+    {
+      "id": 99,
+      "nama": "Jeruk Nipis",
+      "nama_latin": "Citrus aurantiifolia",
+      "pelafalan": "/sit-rus au-ran-ti-i-fo-li-a/",
+      "deskripsi": "Buah kecil asam segar.",
+      "manfaat": [
+        "Meningkatkan daya tahan tubuh",
+        "Membantu pencernaan",
+        "Obat batuk"
+      ]
+    },
+    {
+      "id": 100,
+      "nama": "Jeruk",
+      "nama_latin": "Citrus spp.",
+      "pelafalan": "/sit-rus/",
+      "deskripsi": "Buah jeruk kaya vitamin C.",
+      "manfaat": [
+        "Meningkatkan sistem kekebalan tubuh",
+        "Mencegah sariawan",
+        "Membantu penyerapan zat besi"
+      ]
+    },
+    {
+      "id": 101,
+      "nama": "Jintan Hitam",
+      "nama_latin": "Nigella sativa",
+      "pelafalan": "/ni-gel-la sa-ti-va/",
+      "deskripsi": "Biji hitam kecil.",
+      "manfaat": ["Meningkatkan sistem kekebalan tubuh", "Antiinflamasi"]
+    },
+    {
+      "id": 102,
+      "nama": "Kacang Hijau",
+      "nama_latin": "Vigna radiata",
+      "pelafalan": "/vi-gna ra-di-a-ta/",
+      "deskripsi": "Biji hijau kecil.",
+      "manfaat": ["Meningkatkan kesehatan jantung", "Kaya serat dan protein"]
+    },
+    {
+      "id": 103,
+      "nama": "Kayu Manis Bermani",
+      "nama_latin": "Cinnamomum verum",
+      "pelafalan": "/sin-na-mo-mum ve-rum/",
+      "deskripsi": "Kulit kayu manis asli.",
+      "manfaat": ["Menurunkan gula darah", "Anti-diabetes"]
+    },
+    {
+      "id": 104,
+      "nama": "Kelapa",
+      "nama_latin": "Cocos nucifera",
+      "pelafalan": "/ko-kos nu-ci-fe-ra/",
+      "deskripsi": "Buah tropis berdaging putih.",
+      "manfaat": ["Ramuan tradisional untuk mengobati rematik"]
+    },
+    {
+      "id": 105,
+      "nama": "Kelengkeng",
+      "nama_latin": "Dimocarpus longan",
+      "pelafalan": "/di-mo-kar-pus lon-gan/",
+      "deskripsi": "Buah kecil manis, mirip leci.",
+      "manfaat": [
+        "Menenangkan pikiran",
+        "Mengatasi insomnia",
+        "Sumber vitamin C dan antioksidan"
+      ]
+    },
+    {
+      "id": 106,
+      "nama": "Kemangi",
+      "nama_latin": "Ocimum basilicum",
+      "pelafalan": "/o-si-mum ba-si-li-kum/",
+      "deskripsi": "Daun aromatik kecil.",
+      "manfaat": ["Meningkatkan nafsu makan", "Antibakteri"]
+    },
+    {
+      "id": 107,
+      "nama": "Kencur",
+      "nama_latin": "Kaempferia galanga",
+      "pelafalan": "/kaem-fe-ri-a ga-lang-ga/",
+      "deskripsi": "Rimpang aromatik.",
+      "manfaat": ["Meredakan batuk dan pilek", "Meningkatkan nafsu makan"]
+    },
+    {
+      "id": 108,
+      "nama": "Kiwi",
+      "nama_latin": "Actinidia deliciosa",
+      "pelafalan": "/ak-ti-ni-di-a de-li-ci-o-sa/",
+      "deskripsi": "Buah hijau berbulu.",
+      "manfaat": [
+        "Sumber vitamin C tinggi",
+        "Melancarkan pencernaan",
+        "Membantu tidur (serotonin)"
+      ]
+    },
+    {
+      "id": 109,
+      "nama": "Koenih-rimbo",
+      "nama_latin": null,
+      "pelafalan": "/ko-e-nih rim-bo/",
+      "deskripsi": "Tanaman herbal lokal.",
+      "manfaat": ["Pengobatan flu dan demam"]
+    },
+    {
+      "id": 110,
+      "nama": "Kopi",
+      "nama_latin": "Coffea spp.",
+      "pelafalan": "/kof-fe-a/",
+      "deskripsi": "Minuman dari biji kopi.",
+      "manfaat": ["Mengobati sakit kepala", "Mengatasi stres"]
+    },
+    {
+      "id": 111,
+      "nama": "Kumis Kucing",
+      "nama_latin": "Orthosiphon aristatus",
+      "pelafalan": "/or-to-si-fon a-ris-ta-tus/",
+      "deskripsi": "Tanaman herbal dengan bunga ungu.",
+      "manfaat": [
+        "Memperlancar saluran kemih",
+        "Kesehatan mata",
+        "Mengobati batu ginjal"
+      ]
+    },
+    {
+      "id": 112,
+      "nama": "Kunyit",
+      "nama_latin": "Curcuma longa",
+      "pelafalan": "/kur-ku-ma lon-ga/",
+      "deskripsi": "Rimpang kuning cerah.",
+      "manfaat": [
+        "Mengurangi peradangan",
+        "Meningkatkan pencernaan",
+        "Mengobati batuk dan pilek"
+      ]
+    },
+    {
+      "id": 113,
+      "nama": "Kurma",
+      "nama_latin": "Phoenix dactylifera",
+      "pelafalan": "/fi-niks dak-ti-li-fe-ra/",
+      "deskripsi": "Buah manis dari pohon kurma.",
+      "manfaat": ["Sumber energi cepat", "Mengatasi sembelit", "Kaya mineral"]
+    },
+    {
+      "id": 114,
+      "nama": "Lada",
+      "nama_latin": "Piper nigrum",
+      "pelafalan": "/pi-per ni-grum/",
+      "deskripsi": "Biji lada hitam.",
+      "manfaat": ["Mengobati masalah pencernaan", "Antioksidan"]
+    },
+    {
+      "id": 115,
+      "nama": "Lemon",
+      "nama_latin": "Citrus limon",
+      "pelafalan": "/sit-rus li-mon/",
+      "deskripsi": "Buah asam segar.",
+      "manfaat": [
+        "Detoksifikasi",
+        "Meningkatkan kekebalan tubuh",
+        "Membantu pencernaan"
+      ]
+    },
+    {
+      "id": 116,
+      "nama": "Lengkuas",
+      "nama_latin": "Alpinia galanga",
+      "pelafalan": "/al-pi-ni-a ga-lang-ga/",
+      "deskripsi": "Rimpang mirip jahe, digunakan sebagai bumbu dan obat tradisional di Asia Tenggara.",
+      "manfaat": [
+        "Mengobati penyakit kulit (infeksi bakteri dan jamur)",
+        "Meningkatkan pencernaan",
+        "Meredakan nyeri sendi",
+        "Menurunkan kolesterol dan gula darah",
+        "Antibakteri",
+        "Antijamur",
+        "Antiinflamasi",
+        "Mempercepat penyembuhan luka",
+        "Meningkatkan kekebalan tubuh",
+        "Berpotensi mencegah kanker",
+        "Meredakan batuk dan pilek",
+        "Meningkatkan sirkulasi darah"
+      ]
+    },
+    {
+      "id": 117,
+      "nama": "Lidah Buaya",
+      "nama_latin": "Aloe vera",
+      "pelafalan": "/a-lo-ve-ra/",
+      "deskripsi": "Tanaman sukulen dengan daun berdaging berisi gel.",
+      "manfaat": [
+        "Menyembuhkan luka",
+        "Menyembuhkan luka bakar",
+        "Melembapkan dan menghidrasi kulit"
+      ]
+    },
+    {
+      "id": 118,
+      "nama": "Limau",
+      "nama_latin": "Citrus aurantiifolia",
+      "pelafalan": "/sit-rus au-ran-ti-i-fo-li-a/",
+      "deskripsi": "Buah kecil hijau kekuningan, mirip lemon.",
+      "manfaat": [
+        "Meningkatkan kekebalan tubuh",
+        "Detoksifikasi",
+        "Baik untuk kesehatan kulit"
+      ]
+    },
+    {
+      "id": 119,
+      "nama": "Lundang",
+      "nama_latin": null,
+      "pelafalan": "/lun-dang/",
+      "deskripsi": "Tanaman herbal lokal.",
+      "manfaat": ["Menurunkan panas", "Mengatasi demam"]
+    },
+    {
+      "id": 120,
+      "nama": "Madu",
+      "nama_latin": "Apis mellifera",
+      "pelafalan": "/a-pis me-li-fe-ra/",
+      "deskripsi": "Cairan manis alami yang dihasilkan lebah.",
+      "manfaat": [
+        "Penyembuhan luka",
+        "Meningkatkan daya tahan tubuh",
+        "Meredakan batuk dan sakit tenggorokan"
+      ]
+    },
+    {
+      "id": 121,
+      "nama": "Mahkota Dewa",
+      "nama_latin": "Phaleria macrocarpa",
+      "pelafalan": "/fa-le-ri-a mak-ro-kar-pa/",
+      "deskripsi": "Tanaman herbal dengan buah dan daun yang digunakan.",
+      "manfaat": [
+        "Mengobati kanker",
+        "Mengobati diabetes",
+        "Antiinflamasi",
+        "Meningkatkan imun"
+      ]
+    },
+    {
+      "id": 122,
+      "nama": "Mangga",
+      "nama_latin": "Mangifera indica",
+      "pelafalan": "/man-gi-fe-ra in-di-ka/",
+      "deskripsi": "Buah tropis manis kaya vitamin.",
+      "manfaat": [
+        "Meningkatkan kekebalan tubuh (vitamin C dan A)",
+        "Menjaga kesehatan mata",
+        "Melancarkan pencernaan"
+      ]
+    },
+    {
+      "id": 123,
+      "nama": "Manggis",
+      "nama_latin": "Garcinia mangostana",
+      "pelafalan": "/gar-si-ni-a man-gos-ta-na/",
+      "deskripsi": "Buah ungu dengan daging putih manis.",
+      "manfaat": [
+        "Antioksidan kuat (xanthones)",
+        "Antiinflamasi",
+        "Mendukung kekebalan tubuh"
+      ]
+    },
+    {
+      "id": 124,
+      "nama": "Markisa",
+      "nama_latin": "Passiflora edulis",
+      "pelafalan": "/pas-si-flo-ra e-du-lis/",
+      "deskripsi": "Buah berbentuk bulat dengan rasa asam manis.",
+      "manfaat": [
+        "Menenangkan sistem saraf",
+        "Membantu tidur",
+        "Kaya antioksidan dan serat"
+      ]
+    },
+    {
+      "id": 125,
+      "nama": "Melon",
+      "nama_latin": "Cucumis melo",
+      "pelafalan": "/ku-ku-mis me-lo/",
+      "deskripsi": "Buah berdaging manis, kaya air.",
+      "manfaat": [
+        "Menghidrasi tubuh",
+        "Baik untuk kesehatan mata (beta-karoten)",
+        "Sumber vitamin C"
+      ]
+    },
+    {
+      "id": 126,
+      "nama": "Mengkudu",
+      "nama_latin": "Morinda citrifolia",
+      "pelafalan": "/mo-rin-da si-tri-fo-li-a/",
+      "deskripsi": "Buah berwarna kuning kehijauan dengan bau khas.",
+      "manfaat": ["Meningkatkan sistem kekebalan tubuh", "Antiinflamasi"]
+    },
+    {
+      "id": 127,
+      "nama": "Meniran",
+      "nama_latin": "Phyllanthus niruri",
+      "pelafalan": "/fi-lan-thus ni-ru-ri/",
+      "deskripsi": "Tanaman herbal kecil.",
+      "manfaat": ["Mengobati diabetes", "Mengobati demam", "Mengatasi sembelit"]
+    },
+    {
+      "id": 128,
+      "nama": "Merica lokal",
+      "nama_latin": "Piper nigrum",
+      "pelafalan": "/pi-per ni-grum/",
+      "deskripsi": "Biji lada hitam.",
+      "manfaat": ["Menambah stamina", "Menghangatkan badan"]
+    },
+    {
+      "id": 129,
+      "nama": "Miana",
+      "nama_latin": "Coleus scutellarioides",
+      "pelafalan": "/ko-li-us sku-tel-la-ri-oi-des/",
+      "deskripsi": "Tanaman herbal berdaun berwarna-warni.",
+      "manfaat": ["Meredakan radang perut", "Mengatasi jerawat"]
+    },
+    {
+      "id": 130,
+      "nama": "Mint",
+      "nama_latin": "Mentha",
+      "pelafalan": "/men-tha/",
+      "deskripsi": "Daun aromatik segar.",
+      "manfaat": ["Meredakan sakit kepala", "Membantu pencernaan"]
+    },
+    {
+      "id": 131,
+      "nama": "Naga",
+      "nama_latin": "Hylocereus spp.",
+      "pelafalan": "/hi-lo-se-re-us/",
+      "deskripsi": "Buah berdaging putih atau merah dengan biji hitam kecil.",
+      "manfaat": [
+        "Antioksidan",
+        "Kaya serat",
+        "Membantu mengontrol gula darah",
+        "Meningkatkan kekebalan tubuh"
+      ]
+    },
+    {
+      "id": 132,
+      "nama": "Nanas",
+      "nama_latin": "Ananas comosus",
+      "pelafalan": "/a-na-nas ko-mo-sus/",
+      "deskripsi": "Buah tropis berdaging kuning.",
+      "manfaat": [
+        "Mengurangi peradangan (bromelain)",
+        "Membantu pencernaan protein",
+        "Meningkatkan kekebalan tubuh",
+        "Memperlancar air seni dan haid"
+      ]
+    },
+    {
+      "id": 133,
+      "nama": "Nilam",
+      "nama_latin": "Pogostemon cablin",
+      "pelafalan": "/po-go-ste-mon ka-blin/",
+      "deskripsi": "Tanaman penghasil minyak atsiri aromatik.",
+      "manfaat": ["Aromaterapi", "Pengobatan tradisional"]
+    },
+    {
+      "id": 134,
+      "nama": "Nimba",
+      "nama_latin": "Azadirachta indica",
+      "pelafalan": "/a-za-di-rak-ta in-di-ka/",
+      "deskripsi": "Pohon penghasil ekstrak insektisida alami.",
+      "manfaat": ["Sebagai insektisida alami", "Obat malaria"]
+    },
+    {
+      "id": 135,
+      "nama": "Okra",
+      "nama_latin": "Abelmoschus esculentus",
+      "pelafalan": "/a-bel-mo-skus es-ku-len-tus/",
+      "deskripsi": "Sayuran hijau dengan buah panjang berlendir.",
+      "manfaat": ["Mengontrol kadar gula darah", "Menurunkan kolesterol"]
+    },
+    {
+      "id": 136,
+      "nama": "Oregano",
+      "nama_latin": "Origanum vulgare",
+      "pelafalan": "/o-ri-ga-num vul-ga-re/",
+      "deskripsi": "Tanaman herbal aromatik.",
+      "manfaat": ["Antioksidan", "Antiinflamasi"]
+    },
+    {
+      "id": 137,
+      "nama": "Padi",
+      "nama_latin": "Oryza sativa",
+      "pelafalan": "/o-ri-za sa-ti-va/",
+      "deskripsi": "Tanaman biji-bijian pokok.",
+      "manfaat": ["Mengatasi panas dalam"]
+    },
+    {
+      "id": 138,
+      "nama": "Pala",
+      "nama_latin": "Myristica fragrans",
+      "pelafalan": "/mi-ris-ti-ka fra-grans/",
+      "deskripsi": "Biji rempah aromatik.",
+      "manfaat": ["Tonik pernapasan", "Stamina pria"]
+    },
+    {
+      "id": 139,
+      "nama": "Pare",
+      "nama_latin": "Momordica charantia",
+      "pelafalan": "/mo-mor-di-ka ka-ren-ti-a/",
+      "deskripsi": "Buah pahit hijau.",
+      "manfaat": ["Mengontrol kadar gula darah", "Menurunkan kolesterol"]
+    },
+    {
+      "id": 140,
+      "nama": "Pegagan",
+      "nama_latin": "Centella asiatica",
+      "pelafalan": "/sen-tel-la a-si-a-ti-ka/",
+      "deskripsi": "Tanaman herbal kecil.",
+      "manfaat": [
+        "Meningkatkan kesuburan",
+        "Meningkatkan imunitas",
+        "Meningkatkan metabolisme",
+        "Meningkatkan sirkulasi darah"
+      ]
+    },
+    {
+      "id": 141,
+      "nama": "Pepaya",
+      "nama_latin": "Carica papaya",
+      "pelafalan": "/ka-ri-ka pa-pa-ya/",
+      "deskripsi": "Buah tropis berdaging oranye.",
+      "manfaat": [
+        "Melancarkan pencernaan (enzim papain)",
+        "Mengatasi sembelit",
+        "Meningkatkan kekebalan tubuh",
+        "Baik untuk kulit"
+      ]
+    },
+    {
+      "id": 142,
+      "nama": "Pinang",
+      "nama_latin": "Areca catechu",
+      "pelafalan": "/a-re-ka ka-te-ku/",
+      "deskripsi": "Biji keras dari pohon pinang.",
+      "manfaat": [
+        "Mengatasi anemia",
+        "Menjaga kesehatan pencernaan",
+        "Antiseptik mulut"
+      ]
+    },
+    {
+      "id": 143,
+      "nama": "Pisang",
+      "nama_latin": "Musa spp.",
+      "pelafalan": "/mu-sa/",
+      "deskripsi": "Buah kuning kaya kalium.",
+      "manfaat": [
+        "Sumber energi instan",
+        "Menjaga kesehatan jantung dan tekanan darah",
+        "Melancarkan pencernaan",
+        "Mengurangi kram otot"
+      ]
+    },
+    {
+      "id": 144,
+      "nama": "Pudiang",
+      "nama_latin": null,
+      "pelafalan": "/pu-di-ang/",
+      "deskripsi": "Tanaman herbal lokal.",
+      "manfaat": ["Meningkatkan kesuburan"]
+    },
+    {
+      "id": 145,
+      "nama": "Quassia",
+      "nama_latin": "Quassia amara",
+      "pelafalan": "/kwa-si-a a-ma-ra/",
+      "deskripsi": "Kayu pahit dari pohon quassia.",
+      "manfaat": ["Insektisida alami", "Tonik pencernaan"]
+    },
+    {
+      "id": 146,
+      "nama": "Quercus",
+      "nama_latin": "Quercus spp.",
+      "pelafalan": "/ker-kus/",
+      "deskripsi": "Pohon oak, daun dan kulitnya digunakan.",
+      "manfaat": ["Mengobati diare", "Bersifat astringen"]
+    },
+    {
+      "id": 147,
+      "nama": "Quinoa",
+      "nama_latin": "Chenopodium quinoa",
+      "pelafalan": "/ki-no-a/",
+      "deskripsi": "Biji pseudocereal kaya protein.",
+      "manfaat": ["Sumber protein nabati", "Sumber serat"]
+    },
+    {
+      "id": 148,
+      "nama": "Rambutan",
+      "nama_latin": "Nephelium lappaceum",
+      "pelafalan": "/ne-fe-li-um lap-pa-ce-um/",
+      "deskripsi": "Buah berduri merah dengan daging manis.",
+      "manfaat": ["Sumber energi", "Kaya vitamin C", "Membantu pencernaan"]
+    },
+    {
+      "id": 149,
+      "nama": "Rimpang Temulawak",
+      "nama_latin": "Curcuma xanthorrhiza",
+      "pelafalan": "/kur-ku-ma zan-tho-ri-za/",
+      "deskripsi": "Rimpang kuning dengan rasa pahit.",
+      "manfaat": ["Meningkatkan fungsi hati", "Meningkatkan pencernaan"]
+    },
+    {
+      "id": 150,
+      "nama": "Rosella",
+      "nama_latin": "Hibiscus sabdariffa",
+      "pelafalan": "/hi-bis-kus sab-da-rif-fa/",
+      "deskripsi": "Bunga merah cerah, sering dibuat teh.",
+      "manfaat": ["Menurunkan tekanan darah", "Antioksidan"]
+    },
+    {
+      "id": 150,
+      "nama": "Rosella",
+      "nama_latin": "Hibiscus sabdariffa",
+      "pelafalan": "/hi-bis-kus sab-da-rif-fa/",
+      "deskripsi": "Bunga merah cerah, sering dibuat teh.",
+      "manfaat": ["Menurunkan tekanan darah", "Antioksidan"]
+    },
+    {
+      "id": 151,
+      "nama": "Rumput Laut",
+      "nama_latin": "various species",
+      "pelafalan": "/rum-put laut/",
+      "deskripsi": "Tumbuhan laut kaya mineral.",
+      "manfaat": ["Sumber yodium", "Antioksidan"]
+    },
+    {
+      "id": 152,
+      "nama": "Andalas",
+      "nama_latin": null,
+      "pelafalan": "/an-da-las/",
+      "deskripsi": "Pohon tinggi dengan batang keras, kulit kayu berwarna coklat tua, sering tumbuh di hutan tropis.",
+      "manfaat": ["Obat luka luar"]
+    },
+    {
+      "id": 153,
+      "nama": "Ampadu Tanah",
+      "nama_latin": null,
+      "pelafalan": "/am-pa-du ta-nah/",
+      "deskripsi": "Tanaman perdu berdaun hijau kecil, dikenal dengan rasa sangat pahit.",
+      "manfaat": ["Melancarkan peredaran darah", "Mengatasi panas dalam"]
+    },
+    {
+      "id": 154,
+      "nama": "Akar Anak Rimbo",
+      "nama_latin": null,
+      "pelafalan": "/a-kar a-nak rim-bo/",
+      "deskripsi": "Tanaman akar yang menjalar, tumbuh di kawasan hutan (rimbo), berbau khas saat ditumbuk.",
+      "manfaat": ["Obat batuk"]
+    },
+    {
+      "id": 155,
+      "nama": "Akar Gunung",
+      "nama_latin": null,
+      "pelafalan": "/a-kar gu-nung/",
+      "deskripsi": "Akar panjang yang tumbuh di pegunungan, biasa direbus untuk pengobatan.",
+      "manfaat": ["Obat pencernaan"]
+    },
+    {
+      "id": 156,
+      "nama": "Akar Kuning",
+      "nama_latin": null,
+      "pelafalan": "/a-kar ku-ning/",
+      "deskripsi": "Akar berwarna kuning terang, digunakan dalam bentuk serbuk atau rebusan.",
+      "manfaat": ["Obat luka dalam", "Tonik tubuh"]
+    },
+    {
+      "id": 157,
+      "nama": "Akar Payau",
+      "nama_latin": null,
+      "pelafalan": "/a-kar pa-yau/",
+      "deskripsi": "Akar dari tanaman rawa dengan rasa sepat dan aroma tanah.",
+      "manfaat": ["Obat gangguan pencernaan"]
+    },
+    {
+      "id": 158,
+      "nama": "Akar Pinang Muda",
+      "nama_latin": null,
+      "pelafalan": "/a-kar pi-nang mu-da/",
+      "deskripsi": "Akar dari pinang muda, tipis, diparut lalu direbus.",
+      "manfaat": ["Obat pembersih Rahim"]
+    },
+    {
+      "id": 159,
+      "nama": "Bawang Dayak",
+      "nama_latin": null,
+      "pelafalan": "/ba-wang da-yak/",
+      "deskripsi": "Umbi kecil berwarna merah muda keunguan, menyerupai bawang merah.",
+      "manfaat": ["Obat kencing manis"]
+    },
+    {
+      "id": 160,
+      "nama": "Batang Raru",
+      "nama_latin": null,
+      "pelafalan": "/ba-tang ra-ru/",
+      "deskripsi": "Kayu keras dari pohon besar, kulit batangnya digunakan sebagai ramuan.",
+      "manfaat": ["Obat penurun kolesterol"]
+    },
+    {
+      "id": 161,
+      "nama": "Batang Simalakama",
+      "nama_latin": null,
+      "pelafalan": "/ba-tang si-ma-la-ka-ma/",
+      "deskripsi": "Batang tanaman perdu, bergetah, digunakan sebagai rebusan.",
+      "manfaat": ["Penurun panas"]
+    },
+    {
+      "id": 162,
+      "nama": "Biji Kopi",
+      "nama_latin": null,
+      "pelafalan": "/bi-ji ko-pi/",
+      "deskripsi": "Biji dari buah kopi yang disangrai dan ditumbuk.",
+      "manfaat": ["Penambah energi", "Penawar racun"]
+    },
+    {
+      "id": 163,
+      "nama": "Daun Andaleh",
+      "nama_latin": null,
+      "pelafalan": "/da-un an-da-leh/",
+      "deskripsi": "Daun bulat kecil, berwarna hijau muda, digunakan segar.",
+      "manfaat": ["Obat luka luar", "Obat luka dalam"]
+    },
+    {
+      "id": 164,
+      "nama": "Daun Kumis Kucing",
+      "nama_latin": null,
+      "pelafalan": "/ku-mis ku-cing/",
+      "deskripsi": "Daun oval dengan bunga berbentuk menyerupai kumis kucing.",
+      "manfaat": ["Obat ginjal", "Mengobati sakit pinggang"]
+    },
+    {
+      "id": 165,
+      "nama": "Daun Lidah Buaya",
+      "nama_latin": null,
+      "pelafalan": "/li-dah bu-a-ya/",
+      "deskripsi": "Daun tebal berduri dengan gel bening di dalamnya.",
+      "manfaat": ["Mengobati luka bakar"]
+    },
+    {
+      "id": 166,
+      "nama": "Daun Padi-padian",
+      "nama_latin": null,
+      "pelafalan": "/pa-di-pa-di-an/",
+      "deskripsi": "Daun kecil menyerupai padi liar, digunakan dalam ramuan herbal.",
+      "manfaat": ["Obat masuk angin"]
+    },
+    {
+      "id": 167,
+      "nama": "Daun Pancih Makah",
+      "nama_latin": null,
+      "pelafalan": "/pan-cih ma-kah/",
+      "deskripsi": "Daun lebar dan lunak, mirip bayam, cepat layu jika terkena panas.",
+      "manfaat": ["Obat demam"]
+    },
+    {
+      "id": 168,
+      "nama": "Daun Pisang Muda",
+      "nama_latin": null,
+      "pelafalan": "/pi-sang mu-da/",
+      "deskripsi": "Daun pisang yang masih muda, bertekstur lembut.",
+      "manfaat": ["Obat disentri"]
+    },
+    {
+      "id": 169,
+      "nama": "Daun Rimbo",
+      "nama_latin": null,
+      "pelafalan": "/rim-bo/",
+      "deskripsi": "Daun dari tanaman hutan yang aromatik dan sering diremas.",
+      "manfaat": ["Obat pusing", "Obat sakit kepala"]
+    },
+    {
+      "id": 170,
+      "nama": "Daun Singguang",
+      "nama_latin": null,
+      "pelafalan": "/sing-gu-ang/",
+      "deskripsi": "Daun runcing berserat, berwarna hijau tua, tumbuh di semak belukar.",
+      "manfaat": ["Obat luka luar"]
+    },
+    {
+      "id": 171,
+      "nama": "Daun Talas",
+      "nama_latin": null,
+      "pelafalan": "/ta-las/",
+      "deskripsi": "Daun besar berbentuk hati, sering dijadikan pembalut luka.",
+      "manfaat": ["Mengobati luka luar"]
+    },
+    {
+      "id": 172,
+      "nama": "Jeringau",
+      "nama_latin": null,
+      "pelafalan": "/je-ri-ngau/",
+      "deskripsi": "Tanaman rawa berdaun panjang dengan akar wangi.",
+      "manfaat": ["Obat batuk"]
+    },
+    {
+      "id": 173,
+      "nama": "Jarak Merah",
+      "nama_latin": null,
+      "pelafalan": "/ja-rak me-rah/",
+      "deskripsi": "Tanaman perdu dengan getah putih pekat yang digunakan luar.",
+      "manfaat": ["Obat luka luar", "Mengobati keseleo"]
+    },
+    {
+      "id": 174,
+      "nama": "Kayu Manis",
+      "nama_latin": null,
+      "pelafalan": "/ka-yu ma-nis/",
+      "deskripsi": "Kulit kayu yang digulung kering, aroma manis pedas.",
+      "manfaat": ["Penambah stamina", "Penyeimbang tekanan darah"]
+    },
+    {
+      "id": 175,
+      "nama": "Kunyit Putih",
+      "nama_latin": null,
+      "pelafalan": "/si-ko-pek/",
+      "deskripsi": "Rimpang berwarna putih kekuningan, digunakan sebagai tonik.",
+      "manfaat": ["Obat perut", "Penambah darah"]
+    },
+    {
+      "id": 176,
+      "nama": "Galinggang",
+      "nama_latin": null,
+      "pelafalan": "/ga-ling-gang/",
+      "deskripsi": "Daun majemuk dari tanaman semak, biasa direbus.",
+      "manfaat": ["Obat pencernaan", "Obat diare"]
+    },
+    {
+      "id": 177,
+      "nama": "Inai",
+      "nama_latin": null,
+      "pelafalan": "/i-nai/",
+      "deskripsi": "Daun kecil-kecil, digunakan segar atau dikeringkan.",
+      "manfaat": ["Obat luka luar", "Antiseptik alami"]
+    },
+    {
+      "id": 178,
+      "nama": "Itik-Itiakan",
+      "nama_latin": null,
+      "pelafalan": "/i-tik-i-ti-a-kan/",
+      "deskripsi": "Daun bundar kecil bertekstur lunak, dikukus atau direbus.",
+      "manfaat": ["Obat panas dalam", "Obat batuk"]
+    },
+    {
+      "id": 179,
+      "nama": "Lada Hitam",
+      "nama_latin": null,
+      "pelafalan": "/la-da hi-tam/",
+      "deskripsi": "Biji kecil bulat hitam, dikeringkan dan ditumbuk.",
+      "manfaat": ["Obat masuk angin", "Memperlancar pencernaan"]
+    },
+    {
+      "id": 180,
+      "nama": "Paku Rawan",
+      "nama_latin": null,
+      "pelafalan": "/pa-ku ra-wan/",
+      "deskripsi": "Tumbuhan paku rimbun, bagian batang dan daun digunakan.",
+      "manfaat": ["Obat bengkak"]
+    },
+    {
+      "id": 181,
+      "nama": "Paku Kuda",
+      "nama_latin": null,
+      "pelafalan": "/pa-ku ku-da/",
+      "deskripsi": "Tumbuhan pakis menjalar dengan daun menjari.",
+      "manfaat": ["Obat keseleo"]
+    },
+    {
+      "id": 182,
+      "nama": "Pinang",
+      "nama_latin": null,
+      "pelafalan": "/pi-nang/",
+      "deskripsi": "Buah dari pohon pinang, bijinya dikeringkan atau diparut.",
+      "manfaat": ["Obat kulit (panu)", "Menguatkan gigi"]
+    },
+    {
+      "id": 183,
+      "nama": "Ruku-ruku",
+      "nama_latin": null,
+      "pelafalan": "/ru-ku-ru-ku/",
+      "deskripsi": "Tanaman perdu kecil dengan aroma khas, mirip kemangi.",
+      "manfaat": ["Obat flu", "Penenang"]
+    },
+    {
+      "id": 184,
+      "nama": "Sibuak",
+      "nama_latin": null,
+      "pelafalan": "/si-bu-ak/",
+      "deskripsi": "Daun kecil lembut dengan rasa sepat.",
+      "manfaat": ["Obat sariawan"]
+    },
+    {
+      "id": 185,
+      "nama": "Temu Hitam",
+      "nama_latin": null,
+      "pelafalan": "/te-mu hi-tam/",
+      "deskripsi": "Rimpang berwarna ungu gelap, digunakan dengan hati-hati.",
+      "manfaat": ["Obat tumor", "Obat kanker"]
+    },
+    {
+      "id": 186,
+      "nama": "Umbi Binjai",
+      "nama_latin": null,
+      "pelafalan": "/um-bi bin-jai/",
+      "deskripsi": "Umbi kecil dari pohon binjai liar, pahit.",
+      "manfaat": ["Obat malaria"]
+    },
+    {
+      "id": 187,
+      "nama": "Umbi Gadung",
+      "nama_latin": null,
+      "pelafalan": "/um-bi ga-dung/",
+      "deskripsi": "Umbi besar berbentuk bulat, harus diolah dengan benar.",
+      "manfaat": ["Obat sakit perut", "Penghangat tubuh"]
+    },
+    {
+      "id": 188,
+      "nama": "Ubi Kayu",
+      "nama_latin": null,
+      "pelafalan": "/u-bi ka-yu/",
+      "deskripsi": "Umbi singkong, digunakan juga untuk kompres luka.",
+      "manfaat": ["Obat perut", "Obat luka luar"]
+    },
+    {
+      "id": 189,
+      "nama": "Ubi Akar Payo",
+      "nama_latin": null,
+      "pelafalan": "/u-bi a-kar pa-yo/",
+      "deskripsi": "Akar dari tanaman liar, sering dipakai sebagai rebusan untuk anak-anak.",
+      "manfaat": ["Obat cacingan"]
+    }
+  ]
+}
